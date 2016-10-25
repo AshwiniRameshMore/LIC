@@ -1,0 +1,1 @@
+create table claim_info(claim_id number(10) primary key,claim_date date not null,status varchar2(15) not null,causeofdeath varchar2(15) not null,amount number(10) not null,client_id number(10) not null)

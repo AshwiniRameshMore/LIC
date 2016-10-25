@@ -1,0 +1,158 @@
+Private Sub btnok_Click()
+    If (cmbpt.Text = "") Then
+        MsgBox "Please Select Policy Type!!!!!", vbExclamation
+    ElseIf (cmbda.Text = "") Then
+        MsgBox "Please Select Details About!!!!!", vbExclamation
+    Else
+        If (cmbpt = "Jeevan Anand") Then
+            img.Picture = LoadPicture("d:\projects\VB Projects\LIC\Images\29.jpg")
+            If (cmbda = "Features") Then
+                oleblank.Visible = False
+                olejaf.Visible = True
+                olejab.Visible = False
+                olejkf.Visible = False
+                olejkb.Visible = False
+                olejbf.Visible = False
+                olejbb.Visible = False
+                olejsf.Visible = False
+                olejsb.Visible = False
+                oleajb.Visible = False
+            Else
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = True
+                olejkf.Visible = False
+                olejkb.Visible = False
+                olejbf.Visible = False
+                olejbb.Visible = False
+                olejsf.Visible = False
+                olejsb.Visible = False
+                oleajb.Visible = False
+            End If
+        ElseIf (cmbpt = "Jeevan Kishor") Then
+            img.Picture = LoadPicture("d:\projects\VB Projects\LIC\Images\5.jpg")
+            If (cmbda = "Features") Then
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = False
+                olejkf.Visible = True
+                olejkb.Visible = False
+                olejbf.Visible = False
+                olejbb.Visible = False
+                olejsf.Visible = False
+                olejsb.Visible = False
+                oleajb.Visible = False
+            Else
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = False
+                olejkf.Visible = False
+                olejkb.Visible = True
+                olejbf.Visible = False
+                olejbb.Visible = False
+                olejsf.Visible = False
+                olejsb.Visible = False
+                oleajb.Visible = False
+                If (cmbda = "Benefits") Then
+                Else
+                End If
+            End If
+        ElseIf (cmbpt = "Jeevan Bharati") Then
+            img.Picture = LoadPicture("d:\projects\VB Projects\LIC\Images\30.jpg")
+            If (cmbda = "Features") Then
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = False
+                olejkf.Visible = False
+                olejkb.Visible = False
+                olejbf.Visible = True
+                olejbb.Visible = False
+                olejsf.Visible = False
+                olejsb.Visible = False
+                oleajb.Visible = False
+            Else
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = False
+                olejkf.Visible = False
+                olejkb.Visible = False
+                olejbf.Visible = False
+                olejbb.Visible = True
+                olejsf.Visible = False
+                olejsb.Visible = False
+                oleajb.Visible = False
+                If (cmbda = "Benefits") Then
+                Else
+                End If
+            End If
+        ElseIf (cmbpt = "Jeevan Saathi") Then
+            img.Picture = LoadPicture("d:\projects\VB Projects\LIC\Images\10.jpg")
+            If (cmbda = "Features") Then
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = False
+                olejkf.Visible = False
+                olejkb.Visible = False
+                olejbf.Visible = False
+                olejbb.Visible = False
+                olejsf.Visible = True
+                olejsb.Visible = False
+                oleajb.Visible = False
+            Else
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = False
+                olejkf.Visible = False
+                olejkb.Visible = False
+                olejbf.Visible = False
+                olejbb.Visible = False
+                olejsf.Visible = False
+                olejsb.Visible = True
+                oleajb.Visible = False
+                If (cmbda = "Benefits") Then
+                Else
+                End If
+            End If
+        ElseIf (cmbpt = "Anmol Jeevan") Then
+            img.Picture = LoadPicture("d:\projects\VB Projects\LIC\Images\7.jpg")
+            If (cmbda = "Benefits") Then
+                oleblank.Visible = False
+                olejaf.Visible = False
+                olejab.Visible = False
+                olejkf.Visible = False
+                olejkb.Visible = False
+                olejbf.Visible = False
+                olejbb.Visible = False
+                olejsf.Visible = False
+                olejsb.Visible = False
+                oleajb.Visible = True
+            End If
+        End If
+    End If
+End Sub
+
+Private Sub cmbpt_Click()
+    If (cmbpt = "Anmol Jeevan") Then
+        cmbda.Clear
+        cmbda.AddItem "Benefits"
+    End If
+End Sub
+
+Private Sub cmdhome_Click()
+    Unload Me
+    frmhome.Show
+End Sub
+
+
+Private Sub Form_Load()
+    oleblank.Visible = True
+    olejaf.Visible = False
+    olejab.Visible = False
+    olejkf.Visible = False
+    olejkb.Visible = False
+    olejbf.Visible = False
+    olejbb.Visible = False
+    olejsf.Visible = False
+    olejsb.Visible = False
+    oleajb.Visible = False
+End Sub

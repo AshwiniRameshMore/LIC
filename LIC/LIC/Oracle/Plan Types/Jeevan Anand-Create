@@ -1,0 +1,1 @@
+create table jeevan_anand(pol_id number(10),client_age number(10),pol_duration number(15),onelac_yr number(10),onelac_hr number(10),fivelac_yr number(10),fivelac_hr number(10),tenlac_yr number(10),tenlac_hr number(10));

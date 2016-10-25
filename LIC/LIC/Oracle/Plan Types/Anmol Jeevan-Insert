@@ -1,0 +1,1 @@
+insert into anmol_jeevan values(&pol_id,&client_age,&pol_duration,&tenlac_yr,&tenlac_hr);

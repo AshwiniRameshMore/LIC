@@ -1,0 +1,1 @@
+insert into jeevan_kishor values(&pol_id,&client_age,&pol_duration,&fifty_yr,&fifty_hr,&onelac_yr,&onelac_hr,&twolac_yr,&twolac_hr);

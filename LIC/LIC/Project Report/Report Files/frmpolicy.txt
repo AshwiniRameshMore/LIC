@@ -1,0 +1,425 @@
+Private Sub cmbmode_Click()
+    If (cmbpid.Text = "160") Then
+        If (cmbmode.Text = "Half-Yearly") Then
+            MsgBox "Half-Yearly Mode Is Not Present!!!!!", vbExclamation
+        End If
+    End If
+End Sub
+
+Private Sub cmbpid_Click()
+    If (cmbpid.Text = "149") Then
+        cmbamt.Clear
+        cmbdur.Clear
+        cmbcage.Clear
+        txtpname.Text = "Jeevan Anand"
+        cmbamt.AddItem "100000"
+        cmbamt.AddItem "500000"
+        cmbamt.AddItem "1000000"
+        cmbdur.AddItem "10"
+        cmbdur.AddItem "15"
+        cmbdur.AddItem "20"
+        cmbdur.AddItem "25"
+        cmbcage.AddItem "19"
+        cmbcage.AddItem "20"
+        cmbcage.AddItem "21"
+        cmbcage.AddItem "22"
+        cmbcage.AddItem "23"
+    ElseIf (cmbpid.Text = "102") Then
+        cmbamt.Clear
+        cmbdur.Clear
+        cmbcage.Clear
+        txtpname.Text = "Jeevan Kishor"
+        cmbamt.AddItem "50000"
+        cmbamt.AddItem "100000"
+        cmbamt.AddItem "200000"
+        cmbdur.AddItem "20"
+        cmbdur.AddItem "25"
+        cmbdur.AddItem "30"
+        cmbcage.AddItem "0"
+        cmbcage.AddItem "1"
+        cmbcage.AddItem "2"
+        cmbcage.AddItem "3"
+        cmbcage.AddItem "4"
+        cmbcage.AddItem "5"
+        cmbcage.AddItem "6"
+        cmbcage.AddItem "7"
+    ElseIf (cmbpid.Text = "89") Then
+        cmbamt.Clear
+        cmbdur.Clear
+        cmbcage.Clear
+        txtpname.Text = "Jeevan Saathi"
+        cmbamt.AddItem "50000"
+        cmbamt.AddItem "100000"
+        cmbamt.AddItem "200000"
+        cmbdur.AddItem "20"
+        cmbdur.AddItem "25"
+        cmbdur.AddItem "30"
+        cmbcage.AddItem "24"
+        cmbcage.AddItem "25"
+        cmbcage.AddItem "26"
+        cmbcage.AddItem "27"
+    ElseIf (cmbpid.Text = "91") Then
+        cmbamt.Clear
+        cmbdur.Clear
+        cmbcage.Clear
+        txtpname.Text = "Jana Raksha"
+        cmbamt.AddItem "30000"
+        cmbamt.AddItem "50000"
+        cmbamt.AddItem "100000"
+        cmbdur.AddItem "15"
+        cmbdur.AddItem "20"
+        cmbdur.AddItem "25"
+        cmbcage.AddItem "20"
+        cmbcage.AddItem "21"
+        cmbcage.AddItem "22"
+        cmbcage.AddItem "23"
+    ElseIf (cmbpid.Text = "160") Then
+        cmbamt.Clear
+        cmbdur.Clear
+        cmbcage.Clear
+        txtpname.Text = "Jeevan Bharati"
+        cmbamt.AddItem "50000"
+        cmbamt.AddItem "100000"
+        cmbamt.AddItem "200000"
+        cmbamt.AddItem "500000"
+        cmbdur.AddItem "15"
+        cmbdur.AddItem "20"
+        cmbcage.AddItem "25"
+        cmbcage.AddItem "26"
+        cmbcage.AddItem "27"
+        cmbcage.AddItem "28"
+        cmbcage.AddItem "29"
+        cmbcage.AddItem "30"
+        cmbcage.AddItem "31"
+        cmbcage.AddItem "32"
+        cmbcage.AddItem "33"
+        cmbcage.AddItem "34"
+        cmbcage.AddItem "35"
+    ElseIf (cmbpid.Text = "164") Then
+        cmbamt.Clear
+        cmbdur.Clear
+        cmbcage.Clear
+        txtpname.Text = "Anmol Jeevan"
+        cmbamt.AddItem "1000000"
+        cmbdur.AddItem "10"
+        cmbdur.AddItem "15"
+        cmbdur.AddItem "20"
+        cmbdur.AddItem "25"
+        cmbcage.AddItem "20"
+        cmbcage.AddItem "21"
+        cmbcage.AddItem "22"
+        cmbcage.AddItem "23"
+    End If
+End Sub
+
+Private Sub cmdback_Click()
+    Call max
+    If (txtcid.Text = "0") Then
+    Else
+        con.Execute ("delete from client_info where client_id = " + txtcid.Text + "")
+    End If
+    Unload Me
+    frmclient.Show
+End Sub
+
+Private Sub cmdhome_Click()
+    Call max
+    If (txtcid.Text = "0") Then
+    Else
+        con.Execute ("delete from client_info where client_id = " + txtcid.Text + "")
+    End If
+    Unload Me
+    frmhome.Show
+End Sub
+
+Private Sub cmdproceed_Click()
+    If (cmbpid.Text = "" Or txtpname.Text = "" Or cmbdur.Text = "" Or cmbamt.Text = "" Or cmbmode.Text = "" Or dtpckpd.Value = "" Or cmbcage.Text = "" Or txtpo.Text = "" Or txtenod.Text = "" Or txtai.Text = "" Or txtsoi.Text = "") Then
+        MsgBox "All * Marked Fields Are Compulsory!!!!!", vbExclamation
+    Else
+        Dim fine As Integer
+        Dim rst As ADODB.Recordset
+        Call max1
+        con.Execute ("insert into policy_info values(" + txtpno.Text + "," + cmbpid.Text + ",'" + txtpname.Text + "'," + cmbamt.Text + "," + cmbdur.Text + ",'" + cmbmode.Text + "','" + CStr(dtpckpd.Value) + "'," + cmbcage.Text + ")")
+        'con.Execute ("insert into other_info values(" + txtcid.Text + ",'" + txtpo.Text + "','" + txtenod.Text + "','" + txtnope.Text + "'," + txtloswh.Text + ",'" + txteq.Text + "'," + txtai.Text + ",'" + txtsoi.Text + "'," + txtpn.Text + ")")
+        Set rst = New ADODB.Recordset
+        rst.Open "select agent_id from client_info where client_id=" + txtcid.Text + "", con, adOpenStatic, adLockOptimistic
+        txtaid.Text = rst.Fields(0)
+        rst.Close
+        If (cmbpid.Text = "149") Then
+            If (cmbamt.Text = "100000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select onelac_yr from jeevan_anand where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select onelac_hr from jeevan_anand where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            ElseIf (cmbamt.Text = "500000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select fivelac_yr from jeevan_anand where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select fivelac_hr from jeevan_anand where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            Else
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select tenlac_yr from jeevan_anand where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select tenlac_hr from jeevan_anand where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            End If
+        ElseIf (cmbpid.Text = "102") Then
+            If (cmbamt.Text = "50000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select fifty_yr from jeevan_kishor where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select fifty_hr from jeevan_kishor where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            ElseIf (cmbamt.Text = "100000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select onelac_yr from jeevan_kishor where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select onelac_hr from jeevan_kishor where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            Else
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select twolac_yr from jeevan_kishor where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select twolac_hr from jeevan_kishor where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            End If
+        ElseIf (cmbpid.Text = "89") Then
+            If (cmbamt.Text = "50000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select fifty_yr from jeevan_saathi where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select fifty_hr from jeevan_saathi where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            ElseIf (cmbamt.Text = "100000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select onelac_yr from jeevan_saathi where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select onelac_hr from jeevan_saathi where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            Else
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select twolac_yr from jeevan_saathi where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select twolac_hr from jeevan_saathi where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            End If
+        ElseIf (cmbpid.Text = "91") Then
+            If (cmbamt.Text = "30000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select thirty_yr from jana_raksha where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select thirty_hr from jana_raksha where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            ElseIf (cmbamt.Text = "50000") Then
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select fifty_yr from jana_raksha where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select fifty_hr from jana_raksha where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            Else
+                If (cmbmode.Text = "Yearly") Then
+                    rst.Open "select onelac_yr from jana_raksha where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                Else
+                    rst.Open "select onelac_hr from jana_raksha where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+                End If
+            End If
+        ElseIf (cmbpid.Text = "160") Then
+            If (cmbamt.Text = "50000") Then
+                rst.Open "select fifty_yr from jeevan_bharati where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+            ElseIf (cmbamt.Text = "100000") Then
+                rst.Open "select onelac_yr from jeevan_bharati where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+            ElseIf (cmbamt.Text = "200000") Then
+                rst.Open "select twolac_yr from jeevan_bharati where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+            Else
+                rst.Open "select fivelac_yr from jeevan_bharati where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+            End If
+        ElseIf (cmbpid.Text = "164") Then
+            If (cmbmode.Text = "Yearly") Then
+                rst.Open "select tenlac_yr from anmol_jeevan where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+            Else
+                rst.Open "select tenlac_hr from anmol_jeevan where pol_id=" + cmbpid.Text + " and client_age=" + cmbcage.Text + " and pol_duration ='" + cmbdur.Text + "'", con, adOpenStatic, adLockOptimistic
+            End If
+        End If
+        txtpamt.Text = rst.Fields(0)
+        fine = txtpamt * 9 / 100
+        txtdamt.Text = txtpamt.Text + fine
+        rst.Close
+        txtamt.Text = "0"
+        txtstatus.Text = "Unpaid"
+        dtpckpd.Value = DateSerial(dtpckpd.Year, dtpckpd.Month, dtpckpd.Day)
+        dpkddate.Value = DateAdd("m", 1, dtpckpd.Value)
+        con.Execute "insert into premium_info values(" + txtcid.Text + "," + txtaid.Text + "," + cmbpid.Text + "," + cmbamt.Text + "," + txtamt.Text + "," + txtpamt.Text + ",'" + CStr(dtpckpd.Value) + "','" + CStr(dpkddate.Value) + "'," + txtdamt.Text + ",'" + txtstatus.Text + "')"
+        Unload Me
+        frmagent.Show
+    End If
+End Sub
+
+Private Sub Form_Load()
+    Call conn
+    dtpckpd.Value = Date
+    txtpname.Enabled = False
+    txtdamt.Visible = False
+    txtamt.Visible = False
+    txtaid.Visible = False
+    txtstatus.Visible = False
+    txtpamt.Visible = False
+    txtcid.Visible = False
+    txtpno.Visible = False
+    dpkddate.Visible = False
+End Sub
+Public Function max()
+    Dim clientid As Integer
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(client_id) from client_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        clientid = 0
+        txtcid.Text = clientid
+    Else
+        clientid = rst.Fields(0)
+        txtcid.Text = clientid
+    End If
+    rst.Close
+End Function
+Public Function max1()
+    Dim clientid As Integer
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(client_id) from client_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        clientid = 0
+        txtcid.Text = clientid
+    Else
+        clientid = rst.Fields(0)
+        txtcid.Text = clientid
+    End If
+    rst.Close
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(pol_no) from policy_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        clientid = 1001
+        txtpno.Text = clientid
+    Else
+        clientid = rst.Fields(0) + 1
+        txtpno.Text = clientid
+    End If
+    rst.Close
+End Function
+
+Private Sub txtai_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtsoi.SetFocus
+    End If
+End Sub
+
+Private Sub txtenod_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtnope.SetFocus
+    End If
+End Sub
+
+Private Sub txteq_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+       txtai.SetFocus
+    End If
+End Sub
+
+Private Sub txtloswh_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txteq.SetFocus
+    End If
+End Sub
+
+Private Sub txtnope_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtloswh.SetFocus
+    End If
+End Sub
+
+Private Sub txtpn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        cmdproceed.SetFocus
+    End If
+End Sub
+
+Private Sub txtpo_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtenod.SetFocus
+    End If
+End Sub
+
+Private Sub txtsoi_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtpn.SetFocus
+    End If
+End Sub

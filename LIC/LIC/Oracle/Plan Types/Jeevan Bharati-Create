@@ -1,0 +1,1 @@
+create table jeevan_bharati(pol_id number(10),client_age number(10),pol_duration number(15),fifty_yr number(10),onelac_yr number(10),twolac_yr number(10),fivelac_yr number(10));

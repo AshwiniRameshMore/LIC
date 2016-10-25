@@ -1,0 +1,1 @@
+create table policy_info(pol_no number(10) primary key,pol_id number(10) not null,pol_name varchar2(20) not null,pol_amount number(10) not null,pol_duration number(12) not null,pol_mode varchar2(15) not null,proposal_date date not null,client_age number(12) not null)

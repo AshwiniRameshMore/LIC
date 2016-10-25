@@ -1,0 +1,375 @@
+Private Sub cmbwa_Click()
+    txtamob.SetFocus
+End Sub
+
+Private Sub cmdback_Click()
+    Call max
+    If (txtcid.Text = "0") Then
+    Else
+        con.Execute ("delete from other_info where client_id = " + txtcid.Text + "")
+        con.Execute ("delete from premium_info where client_id = " + txtcid.Text + "")
+    End If
+    If (txtpid.Text = "0") Then
+    Else
+        con.Execute ("delete from policy_info where pol_no = " + txtpid.Text + "")
+    End If
+    Unload Me
+    frmclient.Show
+End Sub
+
+Private Sub cmdhome_Click()
+    If (cmdsave.Enabled = True) Then
+        If (txtcid.Text = "0") Then
+        Else
+            con.Execute ("delete from client_info where client_id = " + txtcid.Text + "")
+            con.Execute ("delete from other_info where client_id = " + txtcid.Text + "")
+            con.Execute ("delete from premium_info where client_id=" + txtcid.Text + "")
+        End If
+        If (txtpid.Text = "0") Then
+        Else
+            con.Execute ("delete from policy_info where pol_no = " + txtpid.Text + "")
+        End If
+    End If
+    Unload Me
+    frmhome.Show
+End Sub
+
+Private Sub cmdsave_Click()
+    If (txtnfn.Text = "" Or txtnmn.Text = "" Or txtnsn.Text = "" Or txtnadd.Text = "" Or txtnage.Text = "" Or txtrel.Text = "" Or txtnpin.Text = "" Or txtafn.Text = "" Or txtamn.Text = "" Or txtasn.Text = "" Or txtaadd.Text = "" Or txtaage.Text = "" Or cmbwa.Text = "" Or txtapin.Text = "") Then
+        MsgBox "All * Marked Fields Are Compulsory!!!!!", vbExclamation
+    Else
+        Call max1
+        con.Execute ("insert into nominee_info values(" + txtnid.Text + ",'" + txtnfn.Text + "','" + txtnmn.Text + "','" + txtnsn.Text + "','" + txtnadd.Text + "'," + txtnmob.Text + "," + txtnoff.Text + ",'" + txtnemail.Text + "'," + txtnpin.Text + "," + txtnage.Text + ",'" + txtrel.Text + "'," + txtcid.Text + ")")
+        con.Execute ("insert into agent_info values(" + txtaid.Text + ",'" + txtafn.Text + "','" + txtamn.Text + "','" + txtasn.Text + "','" + txtaadd.Text + "'," + txtamob.Text + "," + txtaoff.Text + ",'" + txtaemail.Text + "'," + txtapin.Text + "," + txtaage.Text + ",'" + cmbwa.Text + "')")
+        MsgBox "Record Saved Successfully.....", vbInformation
+        cmdsave.Enabled = False
+        cmdback.Enabled = False
+    End If
+End Sub
+
+Private Sub Form_Load()
+    Call conn
+    txtcid.Visible = False
+    txtaid.Visible = False
+    txtnid.Visible = False
+End Sub
+Public Function max()
+    Dim clientid As Integer
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(client_id) from client_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        clientid = 0
+        txtcid.Text = clientid
+    Else
+        clientid = rst.Fields(0)
+        txtcid.Text = clientid
+    End If
+    rst.Close
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(pol_no) from policy_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        clientid = 0
+        txtpid.Text = clientid
+    Else
+        clientid = rst.Fields(0)
+        txtpid.Text = clientid
+    End If
+    rst.Close
+End Function
+Public Function max1()
+    Dim id As Integer
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(agent_id) from agent_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        id = 3001
+        txtaid.Text = id
+    Else
+        id = rst.Fields(0) + 1
+        txtaid.Text = id
+    End If
+    rst.Close
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(nominee_id) from nominee_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        id = 2001
+        txtnid.Text = id
+    Else
+        id = rst.Fields(0) + 1
+        txtnid.Text = id
+    End If
+    rst.Close
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(client_id) from client_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        id = 0
+        txtcid.Text = id
+    Else
+        id = rst.Fields(0)
+        txtcid.Text = id
+    End If
+    rst.Close
+End Function
+
+Private Sub txtaadd_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "=[]\~!@#$%^*+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Special Characters Are Not Allowed!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtaage.SetFocus
+    End If
+End Sub
+
+Private Sub txtaage_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        cmbwa.SetFocus
+    End If
+End Sub
+
+Private Sub txtaemail_KeyPress(KeyAscii As Integer)
+    If (KeyAscii = 13) Then
+        txtapin.SetFocus
+    End If
+End Sub
+
+Private Sub txtafn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtamn.SetFocus
+    End If
+End Sub
+
+Private Sub txtamn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtasn.SetFocus
+    End If
+End Sub
+
+Private Sub txtamob_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtaoff.SetFocus
+    End If
+End Sub
+
+Private Sub txtaoff_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtaemail.SetFocus
+    End If
+End Sub
+
+Private Sub txtapin_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        cmdsave.SetFocus
+    End If
+End Sub
+
+Private Sub txtasn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtaadd.SetFocus
+    End If
+End Sub
+
+Private Sub txtnadd_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "=[]\~!@#$%^*+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Special Characters Are Not Allowed!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtnage.SetFocus
+    End If
+End Sub
+
+Private Sub txtnage_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtrel.SetFocus
+    End If
+End Sub
+
+Private Sub txtnemail_KeyPress(KeyAscii As Integer)
+    If (KeyAscii = 13) Then
+        txtnpin.SetFocus
+    End If
+End Sub
+
+Private Sub txtnfn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtnmn.SetFocus
+    End If
+End Sub
+
+Private Sub txtnmn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtnsn.SetFocus
+    End If
+End Sub
+
+Private Sub txtnmob_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtnoff.SetFocus
+    End If
+End Sub
+
+Private Sub txtnoff_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtnemail.SetFocus
+    End If
+End Sub
+
+Private Sub txtnpin_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtafn.SetFocus
+    End If
+End Sub
+
+Private Sub txtnsn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtnadd.SetFocus
+    End If
+End Sub
+
+Private Sub txtrel_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;'/~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtnmob.SetFocus
+    End If
+End Sub

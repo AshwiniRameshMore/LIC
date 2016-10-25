@@ -1,0 +1,1 @@
+create table other_info(client_id number(10) primary key,occupation varchar2(20) not null,nature_of_occupation varchar2(20) not null,name_of_employer varchar2(20),length_of_services number(20),edu_qualification varchar2(20),annual_income number(15,2) not null,sources_of_income varchar2(30) not null,pancard_no number(10)) 

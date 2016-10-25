@@ -1,0 +1,1 @@
+create table jeevan_raksha(pol_id number(10),client_age number(10),pol_duration number(15),thirty_yr number(10),thirty_hr number(10),fifty_yr number(10),fifty_hr number(10),onelac_yr number(10),onelac_hr number(10));

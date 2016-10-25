@@ -1,0 +1,57 @@
+Private Sub cmdhome_Click()
+    Unload Me
+    frmhome.Show
+End Sub
+
+Private Sub cmdok_Click()
+    If (txtskey.Text = "") Then
+        MsgBox "Please Enter Search Key!!!!!", vbExclamation
+    Else
+        Set rs = New ADODB.Recordset
+        If (txtsearchof.Text = "Client") Then
+            If (txtsearchby.Text = "Client ID") Then
+                rs.Open "select * from client_info where client_id=" + txtskey.Text + "", con, adOpenStatic, adLockOptimistic
+            ElseIf (txtsearchby.Text = "Client Name") Then
+                rs.Open "select * from client_info where client_fname='" + txtskey.Text + "' or client_mname='" + txtskey.Text + "' or client_lname='" + txtskey.Text + "'", con, adOpenStatic, adLockOptimistic
+            ElseIf (txtsearchby.Text = "Agent ID") Then
+                rs.Open "select * from client_info where agent_id=" + txtskey.Text + "", con, adOpenStatic, adLockOptimistic
+            Else
+                rs.Open "select * from client_info where pol_id=" + txtskey.Text + "", con, adOpenStatic, adLockOptimistic
+            End If
+        ElseIf (txtsearchof.Text = "Nominee") Then
+            If (txtsearchbyy.Text = "Nominee ID") Then
+                rs.Open "select * from nominee_info where nominee_id=" + txtskey.Text + "", con, adOpenStatic, adLockOptimistic
+            ElseIf (txtsearchby.Text = "Nominee Name") Then
+                rs.Open "select * from nominee_info where nom_fname='" + txtskey.Text + "' or nom_mname='" + txtskey.Text + "' or nom_lname='" + txtskey.Text + "'", con, adOpenStatic, adLockOptimistic
+            Else
+                rs.Open "select * from nominee_info where agent_id=" + txtskey.Text + "", con, adOpenStatic, adLockOptimistic
+            End If
+        Else
+            If (txtsearchby.Text = "Agent ID") Then
+                rs.Open "select * from agent_info where agent_id=" + txtskey.Text + "", con, adOpenStatic, adLockOptimistic
+            Else
+                rs.Open "select * from nominee_info where agent_fname='" + txtskey.Text + "' or agent_mname='" + txtskey.Text + "' or agent_lname='" + txtskey.Text + "'", con, adOpenStatic, adLockOptimistic
+            End If
+        End If
+        If (rs.RecordCount = 0) Then
+            MsgBox "Record Not Present!!!!!", vbExclamation
+        Else
+            MsgBox "Record Found.....", vbInformation
+            Set dgsearch.DataSource = rs
+        End If
+    End If
+End Sub
+
+Private Sub Form_Load()
+    Call conn
+End Sub
+
+Private Sub txtskey_Change()
+
+End Sub
+
+Private Sub txtskey_KeyPress(KeyAscii As Integer)
+    If (KeyAscii = 13) Then
+        cmdok.SetFocus
+    End If
+End Sub

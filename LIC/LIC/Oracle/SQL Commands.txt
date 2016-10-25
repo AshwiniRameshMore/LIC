@@ -1,0 +1,33 @@
+
+
+********************************SQL COMMANDS*********************************
+
+
+create table anmol_jeevan(pol_id number(10),client_age number(10),pol_duration number(15),tenlac_yr number(10),tenlac_hr number(10));
+
+create table jeevan_anand(pol_id number(10),client_age number(10),pol_duration number(15),onelac_yr number(10),onelac_hr number(10),fivelac_yr number(10),fivelac_hr number(10),tenlac_yr number(10),tenlac_hr number(10));
+
+create table jeevan_bharati(pol_id number(10),client_age number(10),pol_duration number(15),fifty_yr number(10),onelac_yr number(10),twolac_yr number(10),fivelac_yr number(10));
+
+create table jeevan_kishor(pol_id number(10),client_age number(10),pol_duration number(15),fifty_yr number(10),fifty_hr number(10),onelac_yr number(10),onelac_hr number(10),twolac_yr number(10),twolac_hr number(10));
+
+create table jeevan_raksha(pol_id number(10),client_age number(10),pol_duration number(15),thirty_yr number(10),thirty_hr number(10),fifty_yr number(10),fifty_hr number(10),onelac_yr number(10),onelac_hr number(10));
+
+create table jeevan_saathi(pol_id number(10),client_age number(10),pol_duration number(15),fifty_yr number(10),fifty_hr number(10),onelac_yr number(10),onelac_hr number(10),twolac_yr number(10),twolac_hr number(10));
+
+create table agent_info(agent_id number(10) primary key,agent_fname varchar2(20) not null,agent_mname varchar2(20) not null,agent_lname varchar2(20) not null,res_address varchar2(100) not null,tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10) not null,age number(3) not null,work_area varchar2(20) not null);
+
+create table claim_info(claim_id number(10) primary key,claim_date date not null,status varchar2(15) not null,causeofdeath varchar2(15) not null,amount number(10) not null,client_id number(10) not null);
+
+create table client_info(client_id number(10) primary key,client_fname varchar2(20) not null,client_mname varchar2(20) not null,client_lname varchar2(20) not null,sex varchar2(10) not null,father_fname varchar2(20) not null,father_mname varchar2(20) not null,father_lname varchar2(20) not null,res_address varchar2(100) not null,tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10) not null,nationality varchar2(20) not null,agent_id number(10) not null,pol_no number(10) not null);
+
+create table nominee_info(nominee_id number(10) primary key,nom_fname varchar2(20) not null,nom_mname varchar2(20) not null,nom_lname varchar2(20) not null,res_address varchar2(100) not null,tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10) not null,age number(3) not null,relation varchar2(20) not null,client_id number(10) not null);
+
+create table other_info(client_id number(10) primary key,occupation varchar2(20) not null,nature_of_occupation varchar2(20) not null,name_of_employer varchar2(20),length_of_services number(20),edu_qualification varchar2(20),annual_income number(15,2) not null,sources_of_income varchar2(30) not null,pancard_no number(10));
+
+create table policy_info(pol_no number(10) primary key,pol_id number(10) not null,pol_name varchar2(20) not null,pol_amount number(10) not null,pol_duration number(12) not null,pol_mode varchar2(15) not null,proposal_date date not null,client_age number(12) not null);
+
+create table premium_info(client_id number(10) primary key,agent_id number(10) not null,pol_id number(10) not null,total number(10) not null,paid number(10) not null,premium_amt number(15),premium_date date not null,due_date date not null,due_amt number(15) not null,status varchar(10) not null);
+
+create table login(username varchar2(25),password varchar2(25));
+

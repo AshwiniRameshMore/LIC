@@ -1,0 +1,226 @@
+Private Sub cmbcid_Click()
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select claim_id from claim_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+    If (rst.RecordCount > 0) Then
+        MsgBox "Your Policy Has Been Closed!!!!!", vbExclamation
+        cmdok.Enabled = False
+    Else
+        cmdok.Enabled = True
+        rst.Close
+        rst.Open "select due_date from premium_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+        If (dpkdate.Value <= rst.Fields(0)) Then
+            rst.Close
+            rst.Open "select premium_amt from premium_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+        Else
+            rst.Close
+            rst.Open "select due_amt from premium_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+        End If
+        txtpamt.Text = rst.Fields(0)
+        rst.Close
+    End If
+End Sub
+
+Private Sub cmbcid1_Click()
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select claim_id from claim_info where client_id=" + cmbcid1.Text + "", con, adOpenStatic, adLockOptimistic
+    If (rst.RecordCount > 0) Then
+        MsgBox "Your Policy Has Been Closed!!!!!", vbExclamation
+        cmdok1.Enabled = False
+    Else
+        cmdok1.Enabled = True
+    End If
+End Sub
+
+Private Sub cmbstatus_Click()
+    If (cmbstatus.Text = "Client Death") Then
+        cmbcod.Enabled = True
+    Else
+        cmbcod.Enabled = False
+    End If
+End Sub
+
+Private Sub cmdget_Click()
+    Unload Me
+    frmreceipt.Show
+End Sub
+
+Private Sub cmdhome_Click()
+    Unload Me
+    frmhome.Show
+End Sub
+
+Private Sub cmdok_Click()
+    If (cmbcid.Text = "") Then
+        MsgBox "Please Select Client-ID!!!!!", vbExclamation
+    Else
+        Dim paid As Integer
+        Dim rst As ADODB.Recordset
+        Set rst = New ADODB.Recordset
+        txtstatus.Text = "Paid"
+        rst.Open "select paid from premium_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+        paid = rst.Fields(0)
+        txtpaid.Text = paid + txtpamt.Text
+        con.Execute ("update premium_info set paid=" + txtpaid.Text + ",status='" + txtstatus.Text + "' where client_id=" + cmbcid.Text + "")
+        MsgBox "Premium Paid Successfully.....", vbInformation
+    End If
+End Sub
+
+Private Sub cmdok1_Click()
+    If (cmbstatus.Text = "Policy Matured") Then
+        cmbcod.Text = "NA"
+    End If
+    If (cmbcid1.Text = "" Or cmbstatus.Text = "" Or cmbcod.Text = "") Then
+        MsgBox "All Fields Are Compulsory!!!!!", vbExclamation
+    Else
+        Dim bonus As Double
+        Dim pamt As Double
+        Dim amt As Double
+        Dim rst As ADODB.Recordset
+        Call max
+        Set rst = New ADODB.Recordset
+        rst.Open "select pol_no from client_info where client_id=" + cmbcid1.Text + "", con, adOpenStatic, adLockOptimistic
+        txtpid.Text = rst.Fields(0)
+        rst.Close
+        rst.Open "select pol_id,pol_duration,pol_amount from policy_info where pol_no=" + txtpid.Text + "", con, adOpenStatic, adLockOptimistic
+        txtpid.Text = rst.Fields(0)
+        txtpdur.Text = rst.Fields(1)
+        txtpamt1.Text = rst.Fields(2)
+        rst.Close
+        rst.Open "select paid from premium_info where client_id=" + cmbcid1.Text + "", con, adOpenStatic, adLockOptimistic
+        txtpaid.Text = rst.Fields(0)
+        rst.Close
+        If (txtpid.Text = "149") Then
+            amt = txtpamt1.Text / 1000
+            bonus = 65 * txtpdur.Text * amt
+            If (cmbstatus.Text = "Policy Matured") Then
+                pamt = bonus + txtpamt1.Text
+            Else
+                If (cmbcod.Text = "Natural") Then
+                    pamt = bonus + txtpamt1.Text
+                Else
+                    pamt = bonus + (txtpamt1.Text * 2)
+                End If
+            End If
+        ElseIf (txtpid.Text = "102") Then
+            If (cmbstatus.Text = "Policy Matured") Then
+                amt = txtpamt1.Text / 1000
+                bonus = 45 * txtpdur.Text * amt
+                pamt = bonus + txtpamt1.Text
+            Else
+                amt = txtpaid.Text / 1000
+                bonus = 45 * txtpdur.Text * amt
+                If (cmbcod.Text = "Natural") Then
+                    pamt = bonus + txtpamt1.Text
+                Else
+                    pamt = bonus + (txtpamt1.Text * 2)
+                End If
+            End If
+        ElseIf (txtpid.Text = "89") Then
+            If (cmbstatus.Text = "Policy Matured") Then
+                amt = txtpamt1.Text / 1000
+                bonus = 46 * txtpdur.Text * amt
+                pamt = bonus + txtpamt1.Text
+            Else
+                amt = txtpaid.Text / 1000
+                bonus = 46 * txtpdur.Text * amt
+                If (cmbcod.Text = "Natural") Then
+                    pamt = bonus + txtpamt1.Text
+                Else
+                    pamt = bonus + (txtpamt1.Text * 2)
+                End If
+            End If
+        ElseIf (txtpid.Text = "91") Then
+            If (cmbstatus.Text = "Policy Matured") Then
+                amt = txtpamt1.Text / 1000
+                bonus = 45 * txtpdur.Text * amt
+                pamt = bonus + txtpamt1.Text
+            Else
+                amt = txtpaid.Text / 1000
+                bonus = 45 * txtpdur.Text * amt
+                If (cmbcod.Text = "Natural") Then
+                    pamt = bonus + txtpamt1.Text
+                Else
+                    pamt = bonus + (txtpamt1.Text * 2)
+                End If
+            End If
+        ElseIf (txtpid.Text = "160") Then
+            If (cmbstatus.Text = "Policy Matured") Then
+                amt = txtpamt1.Text / 1000
+                bonus = 50 * txtpdur.Text * amt
+                pamt = bonus + txtpamt1.Text
+            Else
+                amt = txtpaid.Text / 1000
+                bonus = 50 * txtpdur.Text * amt
+                If (cmbcod.Text = "Natural") Then
+                    pamt = bonus + txtpamt1.Text
+                Else
+                    pamt = bonus + (txtpamt1.Text * 2)
+                End If
+            End If
+        ElseIf (txtpid.Text = "164") Then
+            If (cmbstatus.Text = "Policy Matured") Then
+                pamt = 0
+            Else
+                If (cmbcod.Text = "Natural") Then
+                    pamt = txtpamt1.Text
+                Else
+                    pamt = txtpamt1.Text
+                End If
+            End If
+        End If
+        txtcamt.Text = pamt
+        con.Execute ("insert into claim_info values(" + txtclaimid.Text + ",'" + CStr(dpkcdate.Value) + "','" + cmbstatus.Text + "','" + cmbcod.Text + "'," + txtcamt.Text + "," + cmbcid1.Text + ")")
+        MsgBox "Your Claim Amount Is Sanctioned Successfully.....", vbInformation
+        MsgBox "Your Policy Has Been Closed.....", vbInformation
+    End If
+End Sub
+
+Private Sub Form_Load()
+    Call conn
+    Call fill
+    txtclaimid.Visible = False
+    txtpid.Visible = False
+    txtpamt1.Visible = False
+    txtpdur.Visible = False
+    txtstatus.Visible = False
+    txtpaid.Visible = False
+    If (frmpaypremium.Enabled = True) Then
+        dpkdate.Enabled = False
+        dpkdate.Value = Date
+        txtpamt.Enabled = False
+    Else
+        Call max
+        dpkcdate.Enabled = False
+        dpkcdate.Value = Date
+        txtcamt.Enabled = False
+        cmbcod.Enabled = False
+    End If
+End Sub
+Public Function fill()
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select distinct client_id from client_info order by client_id", con, adOpenStatic, adLockOptimistic
+    While Not rst.EOF
+        cmbcid.AddItem rst.Fields(0)
+        cmbcid1.AddItem rst.Fields(0)
+        rst.MoveNext
+    Wend
+End Function
+
+Public Function max()
+    Dim claimid As Integer
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(claim_id) from claim_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        claimid = 4001
+        txtclaimid.Text = claimid
+    Else
+        claimid = rst.Fields(0) + 1
+        txtclaimid.Text = claimid
+    End If
+    rst.Close
+End Function
+

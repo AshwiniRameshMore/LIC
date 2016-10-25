@@ -1,0 +1,1 @@
+insert into jeevan_anand values(&pol_id,&client_age,&pol_duration,&onelac_yr,&onelac_hr,&fivelac_yr,&fivelac_hr,&tenlac_yr,&tenlac_hr);

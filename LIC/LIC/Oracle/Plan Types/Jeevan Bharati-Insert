@@ -1,0 +1,1 @@
+insert into jeevan_bharati values(&pol_id,&client_age,&pol_duration,&fifty_yr,&onelac_yr,&twolac_yr,&fivelac_yr);

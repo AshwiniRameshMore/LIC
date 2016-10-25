@@ -1,0 +1,27 @@
+
+
+********************************SQL COMMANDS*********************************
+
+
+create table jeevan_anand(pol_id number(10),client_age number(10),pol_duration number(15),onelac_yr number(10),onelac_hr number(10),fivelac_yr number(10),fivelac_hr number(10),tenlac_yr number(10),tenlac_hr number(10));
+
+create table jeevan_kishor(pol_id number(10),client_age number(10),pol_duration number(15),fifty_yr number(10),fifty_hr number(10),onelac_yr number(10),onelac_hr number(10),twolac_yr number(10),twolac_hr number(10));
+
+create table jeevan_saral(pol_id number(10),client_age number(10),pol_duration number(15),fifty_yr number(10),fifty_hr number(10),onelac_yr number(10),onelac_hr number(10),twolac_yr number(10),twolac_hr number(10));
+
+create table agent_info(agent_id number(10) primary key,agent_fname varchar2(20),agent_mname varchar2(20),agent_lname varchar2(20),res_address varchar2(100),tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10),age number(3),work_area varchar2(20));
+
+create table claim_info(claim_id number(10) primary key,claim_date date,status varchar2(15),causeofdeath varchar2(15),amount number(10),client_id number(10));
+
+create table client_info(client_id number(10) primary key,client_fname varchar2(20),client_mname varchar2(20),client_lname varchar2(20),sex varchar2(10),father_fname varchar2(20),father_mname varchar2(20),father_lname varchar2(20),res_address varchar2(100),tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10),nationality varchar2(20),agent_id number(10),pol_no number(10));
+
+create table nominee_info(nominee_id number(10) primary key,nom_fname varchar2(20),nom_mname varchar2(20),nom_lname varchar2(20),res_address varchar2(100),tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10),age number(3),relation varchar2(20),client_id number(10));
+
+create table other_info(client_id number(10) primary key,occupation varchar2(20),nature_of_occupation varchar2(20),edu_qualification varchar2(20),annual_income number(15,2),sources_of_income varchar2(30));
+
+create table policy_info(pol_no number(10) primary key,pol_id number(10),pol_name varchar2(20),pol_amount number(10),pol_duration number(12),pol_mode varchar2(15),proposal_date date,client_age number(12));
+
+create table premium_info(client_id number(10) primary key,agent_id number(10),pol_id number(10),total number(10),paid number(10),premium_amt number(15),premium_date date,due_date date,due_amt number(15),status varchar(10));
+
+create table login(username varchar2(25),password varchar2(25));
+

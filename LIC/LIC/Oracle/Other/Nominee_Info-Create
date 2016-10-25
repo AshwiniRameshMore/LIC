@@ -1,0 +1,1 @@
+create table nominee_info(nominee_id number(10) primary key,nom_fname varchar2(20) not null,nom_mname varchar2(20) not null,nom_lname varchar2(20) not null,res_address varchar2(100) not null,tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10) not null,age number(3) not null,relation varchar2(20) not null,client_id number(10) not null)

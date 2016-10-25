@@ -1,0 +1,30 @@
+Private Sub cmdhome_Click()
+    Unload Me
+    frmhome.Show
+End Sub
+
+Private Sub cmdok_Click()
+    Set rs = New ADODB.Recordset
+    If (txtdetailsof.Text = "Client") Then
+        rs.Open "select * from client_info", con, adOpenStatic, adLockOptimistic
+    ElseIf (txtdetailsof.Text = "Nominee") Then
+        rs.Open "select * from nominee_info", con, adOpenStatic, adLockOptimistic
+    ElseIf (txtdetailsof.Text = "Agent") Then
+        rs.Open "select * from agent_info", con, adOpenStatic, adLockOptimistic
+    ElseIf (txtdetailsof.Text = "Policy") Then
+        rs.Open "select * from policy_info", con, adOpenStatic, adLockOptimistic
+    ElseIf (txtdetailsof.Text = "Premium") Then
+        rs.Open "select * from premium_info", con, adOpenStatic, adLockOptimistic
+    Else
+        rs.Open "select * from claim_info", con, adOpenStatic, adLockOptimistic
+    End If
+    If (rs.RecordCount = 0) Then
+        MsgBox "Details Not Present!!!!!", vbExclamation
+    Else
+        Set dgdetails.DataSource = rs
+    End If
+End Sub
+
+Private Sub Form_Load()
+    Call conn
+End Sub

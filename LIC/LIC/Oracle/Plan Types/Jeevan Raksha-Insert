@@ -1,0 +1,1 @@
+insert into jeevan_raksha values(&pol_id,&client_age,&pol_duration,&thirty_yr,&thirty_hr,&fifty_yr,&fifty_hr,&onelac_yr,&onelac_hr);

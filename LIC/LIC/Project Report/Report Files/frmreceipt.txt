@@ -1,0 +1,91 @@
+Private Sub cmbcid_Change()
+
+End Sub
+
+Private Sub cmbcid_Click()
+    cmdok.SetFocus
+End Sub
+
+Private Sub cmdhome_Click()
+    Unload Me
+    frmhome.Show
+End Sub
+
+Private Sub cmdok_Click()
+    If (cmbcid.Text = "") Then
+        MsgBox "Please Select Client-ID!!!!!", vbExclamation
+    Else
+        Dim mode As String
+        Dim rst As ADODB.Recordset
+        Set rst = New ADODB.Recordset
+        rst.Open "select claim_id from claim_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+        If (rst.RecordCount = 0) Then
+            rst.Close
+            dpkdate.Value = Date
+            rst.Open "select pol_no from client_info where client_id =" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+            txt.Text = rst.Fields(0)
+            rst.Close
+            rst.Open "select pol_mode from policy_info where pol_no=" + txt.Text + "", con, adOpenStatic, adLockOptimistic
+            mode = rst.Fields(0)
+            rst.Close
+            rst.Open "select premium_date,status from premium_info where client_id =" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+            dpkpdate.Value = rst.Fields(0)
+            txt.Text = rst.Fields(1)
+            rst.Close
+            If (mode = "Yearly") Then
+                dpkpdate.Value = DateSerial(dpkpdate.Year, dpkpdate.Month, dpkpdate.Day)
+                dpkpdate.Value = DateAdd("yyyy", 1, dpkpdate.Value)
+            Else
+                dpkpdate.Value = DateSerial(dpkpdate.Year, dpkpdate.Month, dpkpdate.Day)
+                dpkpdate.Value = DateAdd("m", 6, dpkpdate.Value)
+            End If
+            If (dpkdate.Value >= dpkpdate.Value And txt.Text = "Paid") Then
+                txt.Text = "Unpaid"
+                dpkpdate.Value = DateSerial(dpkpdate.Year, dpkpdate.Month, dpkpdate.Day)
+                dpkdate.Value = DateAdd("m", 1, dpkpdate.Value)
+                con.Execute ("update premium_info set premium_date='" + CStr(dpkpdate.Value) + "',due_date='" + CStr(dpkdate.Value) + "',status='" + txt.Text + "' where client_id=" + cmbcid.Text + "")
+            End If
+            rst.Open "select client_fname,client_mname,client_lname from client_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+            txtfname.Text = rst.Fields(0)
+            txtmname.Text = rst.Fields(1)
+            txtlname.Text = rst.Fields(2)
+            rst.Close
+            rst.Open "select agent_id,pol_id,total,paid,premium_amt,premium_date,due_date,due_amt,status from premium_info where client_id=" + cmbcid.Text + "", con, adOpenStatic, adLockOptimistic
+            txtaid.Text = rst.Fields(0)
+            txtpid.Text = rst.Fields(1)
+            txtpolamt.Text = rst.Fields(2)
+            txtpamt.Text = rst.Fields(3)
+            txtpamt1.Text = rst.Fields(4)
+            txtpdate.Text = rst.Fields(5)
+            txtddate.Text = rst.Fields(6)
+            txtdamt.Text = rst.Fields(7)
+            txtstatus.Text = rst.Fields(8)
+            rst.Close
+            rst.Open "select work_area from agent_info where agent_id=" + txtaid.Text + "", con, adOpenStatic, adLockOptimistic
+            txtbranch.Text = rst.Fields(0)
+            rst.Close
+        Else
+            MsgBox "Your Policy Has Been Closed!!!!!", vbExclamation
+        End If
+    End If
+End Sub
+
+Private Sub Form_Load()
+    Call conn
+    Call fill
+    frmpreceipt.Enabled = False
+    txt.Visible = False
+    dpkdate.Visible = False
+    dpkpdate.Visible = False
+End Sub
+Public Function fill()
+    Dim rst As ADODB.Recordset
+    cmbcid.Clear
+    Set rst = New ADODB.Recordset
+    rst.Open "select distinct client_id from client_info order by client_id", con, adOpenStatic, adLockOptimistic
+    While Not rst.EOF
+        cmbcid.AddItem rst.Fields(0)
+        rst.MoveNext
+    Wend
+End Function
+

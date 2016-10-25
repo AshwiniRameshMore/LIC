@@ -1,0 +1,2484 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: Life Insurance Corporation of India
+Date: Sat, 13 Sep 2008 11:39:54 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_04EA_01C91595.711742B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.licindia.com/index.htm
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Life Insurance Corporation of India</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dutf-8"><LINK=20
+href=3D"http://www.licindia.com/images/style.css" type=3Dtext/css =
+rel=3Dstylesheet>
+<SCRIPT language=3Djavascript>
+var movieName =3D "mainfile";
+function thisMovie(movieName) {
+  // IE and Netscape refer to the movie object differently.
+  // This function returns the appropriate syntax depending on the =
+browser.
+  if (navigator.appName.indexOf ("Microsoft") !=3D-1) {
+    return window[movieName]
+  }	else {
+    return document[movieName]
+  }
+}
+// Checks if movie is completely loaded.
+// Returns true if yes, false if no.
+function movieIsLoaded (theMovie) {
+  if (typeof(theMovie) !=3D "undefined") {
+    return theMovie.PercentLoaded() =3D=3D 100;
+  } else {
+    return false;
+  }
+}
+function golabel() {
+  if (movieIsLoaded(thisMovie(movieName))) {
+    thisMovie(movieName).TGotoLabel("_level0/","endwaa");
+  }
+}
+</SCRIPT>
+
+<STYLE type=3Dtext/css>.style1 {
+	FONT-SIZE: 9px; COLOR: #ff0000
+}
+</STYLE>
+
+<SCRIPT language=3Djavascript =
+src=3D"http://www.licindia.com/js/CascadeMenu.js">
+</SCRIPT>
+
+<SCRIPT language=3Djavascript=20
+src=3D"http://www.licindia.com/js/WindowNavigationWeb.js">
+</SCRIPT>
+
+<SCRIPT language=3Djavascript>
+
+function Querystring(qs) { // optionally pass a querystring to parse
+	this.params =3D new Object()
+	this.get=3DQuerystring_get
+=09
+	if (qs =3D=3D null)
+		qs=3Dlocation.search.substring(1,location.search.length)
+
+	if (qs.length =3D=3D 0) return
+
+	qs =3D qs.replace(/\+/g, ' ')
+	var args =3D qs.split('&') // parse out name/value pairs separated via =
+&
+=09
+
+	for (var i=3D0;i<args.length;i++) {
+		var value;
+		var pair =3D args[i].split('=3D')
+		var name =3D unescape(pair[0])
+
+		if (pair.length =3D=3D 2)
+			value =3D unescape(pair[1])
+		else
+			value =3D name
+	=09
+		this.params[name] =3D value
+	}
+}
+
+function Querystring_get(key, default_) {
+	// This silly looking line changes UNDEFINED to NULL
+	if (default_ =3D=3D null) default_ =3D null;
+=09
+	var value=3Dthis.params[key]
+	if (value=3D=3Dnull) value=3Ddefault_;
+=09
+	return value
+}
+
+function test(){
+	var qs2 =3D  new Querystring();
+	var v1 =3D qs2.get("error");
+	if(v1 =3D=3D "yes"){
+=09
+		var td_err =3D document.getElementById("error_display");
+		td_err.innerHTML =3D "Invalid Username or Password";
+	}
+}
+function show_popup(){
+	=
+window.open('blast_popup.htm','','width=3D500,height=3D455,status=3Dno,sc=
+rollbars=3Dno,toolbar=3Dno,menubar=3Dno,location=3Dno,top=3D20,left=3D100=
+');
+}
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.5730.13" name=3DGENERATOR></HEAD>
+<BODY id=3DBdy leftMargin=3D0 topMargin=3D0 onload=3DgetParam(); =
+marginwidth=3D"0"=20
+marginheight=3D"0">
+<DIV align=3Dcenter>
+<TABLE cellSpacing=3D1 cellPadding=3D0 width=3D779 bgColor=3D#cccccc =
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD bgColor=3D#ffffff>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD width=3D327><A =
+href=3D"http://www.licindia.com/index.html"><IMG=20
+            height=3D82 =
+src=3D"http://www.licindia.com/images/lic_logo.jpg"=20
+            width=3D327 border=3D0></A></TD>
+          <TD width=3D179>&nbsp;</TD>
+          <TD width=3D170>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D170 =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD><A =
+href=3D"http://www.licindia.com/call_center_num.htm"><IMG=20
+                  height=3D18 =
+src=3D"http://www.licindia.com/images/Contactus.jpg"=20
+                  width=3D61 border=3D0></A></TD>
+                <TD><A =
+href=3D"http://www.licindia.com/about_us.htm"><IMG=20
+                  height=3D18 =
+src=3D"http://www.licindia.com/images/aboutus.jpg"=20
+                  width=3D55 border=3D0></A></TD>
+                <TD><A =
+href=3D"http://www.licindia.com/Hindi/index.htm"><IMG=20
+                  height=3D17 =
+src=3D"http://www.licindia.com/images/hindi.jpg"=20
+                  width=3D30 border=3D0></A></TD></TR>
+              <TR>
+                <TD colSpan=3D3>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+                    <TBODY>
+                    <TR>
+                      <FORM name=3DportalSearch=20
+                      onsubmit=3D"validateSearchInput();return false"=20
+                      action=3Dsearch.htm?query=3D></FORM>
+                      <TD width=3D"22%"><IMG height=3D14=20
+                        =
+src=3D"http://www.licindia.com/images/search.jpg"=20
+                      width=3D37></TD>
+                      <TD width=3D"62%"><INPUT class=3Dsearchbox =
+size=3D11=20
+                        name=3DsearchString></TD>
+                      <TD width=3D"16%"><INPUT type=3Dimage height=3D14 =
+width=3D23=20
+                        src=3D"http://www.licindia.com/images/Go.jpg" =
+border=3D0=20
+                        =
+img=3D""></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+          <TD vAlign=3Dtop width=3D98>&nbsp;</TD></TR>
+        <TR>
+          <TD colSpan=3D4>
+            <DIV align=3Dright>
+            <OBJECT=20
+            =
+codeBase=3Dhttp://download.macromedia.com/pub/shockwave/cabs/flash/swflas=
+h.cab#version=3D6,0,29,0=20
+            height=3D162 width=3D773=20
+            classid=3Dclsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM =
+NAME=3D"movie" VALUE=3D"images/home_banner_new.swf"><PARAM =
+NAME=3D"quality" VALUE=3D"high"><PARAM NAME=3D"menu" VALUE=3D"false">
+                                                                  <embed =
+
+            src=3D"images/home_banner_new.swf" quality=3D"high"=20
+            pluginspage=3D"http://www.macromedia.com/go/getflashplayer"=20
+            type=3D"application/x-shockwave-flash" height=3D"162"=20
+            width=3D"773"></OBJECT></DIV></TD></TR>
+        <TR>
+          <TD colSpan=3D4>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD vAlign=3Dtop width=3D224>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD width=3D8>&nbsp;</TD>
+                      <TD vAlign=3Dtop>
+                        <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%"=20
+border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D172=20
+                              align=3Dleft border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD><FONT color=3Dred><SPAN id=3Dlog=20
+                                style=3D"DISPLAY: none"><I>Incorrect =
+UserID /=20
+                                Password</I></SPAN><BR></FONT></TD></TR>
+                                <TR>
+                                <TD class=3Dtext1>Customers / =
+Development Officers=20
+                                / Agents / Employees login here for the =
+Portal=20
+                                :</TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD></TR>
+                                <TR>
+                                <TD>
+                                <TABLE class=3Dtable_border =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D195 border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD><A=20
+                                =
+href=3D"http://www.licindia.com/epslogin.htm"><IMG=20
+                                height=3D64=20
+                                =
+src=3D"http://www.licindia.com/images/home_login_button.jpg"=20
+                                width=3D195 border=3D0></A></TD></TR>
+                                <TR>
+                                <TD>
+                                <DIV align=3Dcenter><A class=3Dcopyright =
+
+                                =
+href=3D"http://www.licindia.com/NewUserRegistration.htm">New=20
+                                User? Click=20
+                                =
+Here</A><BR><BR></DIV></TD></TR></TBODY></TABLE><SPAN=20
+                                class=3Dtext1><A=20
+                                =
+href=3D"http://www.licindia.com/epslogin.htm"></A></SPAN></TD></TR></TBOD=
+Y></TABLE></TD></TR>
+                          <TR>
+                            <TD>&nbsp;</TD></TR>
+                          <TR>
+                            <TD>
+                              <OBJECT=20
+                              =
+codeBase=3Dhttp://download.macromedia.com/pub/shockwave/cabs/flash/swflas=
+h.cab#version=3D6,0,29,0=20
+                              height=3D68 width=3D207=20
+                              =
+classid=3Dclsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM =
+NAME=3D"movie" VALUE=3D"images/awards.swf"><PARAM NAME=3D"quality" =
+VALUE=3D"high"><PARAM NAME=3D"menu" VALUE=3D"false">
+                                                                         =
+       =20
+                                                                         =
+       =20
+                              <embed src=3D"images/awards.swf" =
+quality=3D"high"=20
+                              =
+pluginspage=3D"http://www.macromedia.com/go/getflashplayer"=20
+                              type=3D"application/x-shockwave-flash" =
+height=3D"68"=20
+                              width=3D"207"></OBJECT></TD></TR>
+                          <TR>
+                            <TD height=3D6><IMG height=3D1=20
+                              =
+src=3D"http://www.licindia.com/images/spacer.gif"=20
+                              width=3D1></TD></TR>
+                          <TR>
+                            <TD><IMG height=3D68=20
+                              =
+src=3D"http://www.licindia.com/images/gjf_homepage_img.gif"=20
+                              width=3D203 useMap=3D#Map vspace=3D5 =
+border=3D0></TD></TR>
+                          <TR>
+                            <TD>&nbsp;</TD></TR></TBODY></TABLE></TD>
+                      <TD width=3D9><IMG height=3D1=20
+                        =
+src=3D"http://www.licindia.com/images/spacer.gif"=20
+                      width=3D1></TD></TR></TBODY></TABLE></TD>
+                <TD vAlign=3Dtop width=3D555>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D545 =
+border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD><A=20
+                        =
+href=3D"http://www.licindia.com/individual_plans.htm"><IMG=20
+                        height=3D79=20
+                        =
+src=3D"http://www.licindia.com/images/insurance_plans_home.jpg"=20
+                        width=3D109 border=3D0></A></TD>
+                      <TD><A=20
+                        =
+href=3D"http://www.licindia.com/pension_plans.htm"><IMG=20
+                        height=3D79=20
+                        =
+src=3D"http://www.licindia.com/images/pension_plans_home.jpg"=20
+                        width=3D109 border=3D0></A></TD>
+                      <TD><A=20
+                        =
+href=3D"http://www.licindia.com/investment_plans.htm"><IMG=20
+                        height=3D79=20
+                        =
+src=3D"http://www.licindia.com/images/unit_plans_home.jpg"=20
+                        width=3D109 border=3D0></A></TD>
+                      <TD><A=20
+                        =
+href=3D"http://www.licindia.com/social_scheme.htm"><IMG=20
+                        height=3D79=20
+                        =
+src=3D"http://www.licindia.com/images/special_plans_home.jpg"=20
+                        width=3D109 border=3D0></A></TD>
+                      <TD><A=20
+                        =
+href=3D"http://www.licindia.com/group_scheme.htm"><IMG=20
+                        height=3D79=20
+                        =
+src=3D"http://www.licindia.com/images/group_scheme_home.jpg"=20
+                        width=3D109 border=3D0></A></TD></TR>
+                    <TR>
+                      <TD colSpan=3D5>
+                        <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%"=20
+border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD vAlign=3Dtop>
+                              <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"31%"=20
+                              border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD width=3D"5%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Curve.jpg"=20
+                                width=3D17></TD>
+                                <TD width=3D"74%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Straight_Line.jpg"=20
+                                width=3D237></TD>
+                                <TD width=3D"21%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Curve.jpg"=20
+                                width=3D14></TD></TR>
+                                <TR>
+                                <TD vAlign=3Dtop><IMG height=3D64=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Line.jpg"=20
+                                width=3D17></TD>
+                                <TD vAlign=3Dtop>
+                                <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%"=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD height=3D21><IMG height=3D20=20
+                                =
+src=3D"http://www.licindia.com/images/Tools.jpg"=20
+                                width=3D231></TD></TR>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=3D0 cellPadding=3D2 =
+width=3D"100%"=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD class=3Dtext1><IMG height=3D13=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5>&nbsp;<A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/premium_calculator.htm">Premium=20
+                                Calculator</A></TD>
+                                <TD class=3Dtext1>&nbsp;</TD></TR>
+                                <TR>
+                                <TD class=3Dtext1><IMG height=3D13=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5>&nbsp;<A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/pension_policy.htm">Pension=20
+                                Policy Details&nbsp;&nbsp; </A></TD>
+                                <TD class=3Dtext1>&nbsp;</TD></TR>
+                                <TR>
+                                <TD class=3Dtext1><IMG height=3D13 =
+alt=3Dbullet=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5> <A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/insurance_advisor.htm">Insurance=20
+                                Advisor</A> <A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/pension_policy.htm">&nbsp;</A></TD>
+                                <TD class=3Dtext>&nbsp;</TD></TR>
+                                <TR>
+                                <TD class=3Dtext1><IMG height=3D13 =
+alt=3Dbullet=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5> <A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/online_payment.htm">Procedure=20
+                                for Online Premium =
+Payment.&nbsp;</A></TD>
+                                <TD=20
+                                =
+class=3Dtext>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD>
+                                <TD vAlign=3Dtop><IMG height=3D64=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Line.jpg"=20
+                                =
+width=3D17></TD></TR></TBODY></TABLE></TD>
+                            <TD width=3D9><IMG height=3D1=20
+                              =
+src=3D"http://www.licindia.com/images/spacer.gif"=20
+                              width=3D1></TD>
+                            <TD vAlign=3Dtop>
+                              <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"31%"=20
+                              border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD width=3D"5%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Curve.jpg"=20
+                                width=3D17></TD>
+                                <TD width=3D"74%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Straight_Line.jpg"=20
+                                width=3D237></TD>
+                                <TD width=3D"21%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Curve.jpg"=20
+                                width=3D14></TD></TR>
+                                <TR>
+                                <TD vAlign=3Dtop><IMG height=3D64=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Line.jpg"=20
+                                width=3D17></TD>
+                                <TD vAlign=3Dtop>
+                                <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%"=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD height=3D21><IMG height=3D20=20
+                                =
+src=3D"http://www.licindia.com/images/Know_Your_Life.jpg"=20
+                                width=3D207></TD></TR>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=3D0 cellPadding=3D2 =
+width=3D"100%"=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD class=3Dtext1><IMG height=3D13=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5>&nbsp;<A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/know_lic.htm#2">What=20
+                                is life insurance? </A></TD>
+                                <TD class=3Dtext1><IMG height=3D13=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5>&nbsp;<A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/know_lic.htm#4">Who=20
+                                can buy a policy? </A></TD></TR>
+                                <TR>
+                                <TD class=3Dtext1><IMG height=3D13=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5><A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/know_lic.htm#3">&nbsp;Life=20
+                                Insurance <FONT=20
+                                size=3D1><STRONG><BR>Vs</STRONG></FONT> =
+other=20
+                                savings? </A></TD>
+                                <TD class=3Dtext1><IMG height=3D13=20
+                                =
+src=3D"http://www.licindia.com/images/bullet.jpg"=20
+                                width=3D5> <A class=3Dtext1=20
+                                =
+href=3D"http://www.licindia.com/glossary.htm">Insurance=20
+                                terms made=20
+                                =
+easy.</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+                                <TD vAlign=3Dtop><IMG height=3D64=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Line.jpg"=20
+                                =
+width=3D17></TD></TR></TBODY></TABLE></TD></TR>
+                          <TR>
+                            <TD>&nbsp;</TD>
+                            <TD>&nbsp;</TD>
+                            <TD>&nbsp;</TD></TR>
+                          <TR>
+                            <TD vAlign=3Dtop>
+                              <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"31%"=20
+                              border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD width=3D"5%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Curve.jpg"=20
+                                width=3D17></TD>
+                                <TD width=3D"74%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Straight_Line.jpg"=20
+                                width=3D237></TD>
+                                <TD width=3D"21%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Curve.jpg"=20
+                                width=3D14></TD></TR>
+                                <TR>
+                                <TD vAlign=3Dtop><IMG height=3D118=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Big_Line.jpg"=20
+                                width=3D17></TD>
+                                <TD vAlign=3Dtop>
+                                <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%"=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD height=3D21><IMG height=3D19=20
+                                =
+src=3D"http://www.licindia.com/images/Happenings.jpg"=20
+                                width=3D231></TD></TR>
+                                <TR>
+                                <TD>
+                                <TABLE cellSpacing=3D0 cellPadding=3D2 =
+width=3D"100%"=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD class=3Dtext>
+                                <DIV align=3Dcenter>
+                                <OBJECT=20
+                                =
+codeBase=3Dhttp://download.macromedia.com/pub/shockwave/cabs/flash/swflas=
+h.cab#version=3D6,0,29,0=20
+                                height=3D115 width=3D175=20
+                                =
+classid=3Dclsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM =
+NAME=3D"movie" VALUE=3D"images/slider.swf"><PARAM NAME=3D"quality" =
+VALUE=3D"high">
+                                                                         =
+       =20
+                                                                         =
+       =20
+                                                                         =
+       =20
+                                               <embed =
+src=3D"images/slider.swf"=20
+                                quality=3D"high"=20
+                                =
+pluginspage=3D"http://www.macromedia.com/go/getflashplayer"=20
+                                type=3D"application/x-shockwave-flash"=20
+                                height=3D"115"=20
+                                =
+width=3D"175"></OBJECT></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY>=
+</TABLE></TD>
+                                <TD vAlign=3Dtop><IMG height=3D118=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Big_Line.jpg"=20
+                                =
+width=3D17></TD></TR></TBODY></TABLE></TD>
+                            <TD>&nbsp;</TD>
+                            <TD vAlign=3Dtop>
+                              <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D"31%"=20
+                              border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD width=3D"5%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Curve.jpg"=20
+                                width=3D17></TD>
+                                <TD width=3D"74%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Straight_Line.jpg"=20
+                                width=3D237></TD>
+                                <TD width=3D"21%"><IMG height=3D18=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Curve.jpg"=20
+                                width=3D14></TD></TR>
+                                <TR>
+                                <TD vAlign=3Dtop><IMG height=3D118=20
+                                =
+src=3D"http://www.licindia.com/images/Left_Big_Line.jpg"=20
+                                width=3D17></TD>
+                                <TD vAlign=3Dtop>
+                                <OBJECT=20
+                                =
+codeBase=3Dhttp://download.macromedia.com/pub/shockwave/cabs/flash/swflas=
+h.cab#version=3D7,0,19,0=20
+                                height=3D150 width=3D230=20
+                                =
+classid=3Dclsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM =
+NAME=3D"movie" VALUE=3D"images/300x250_FD_LIC_stat1.swf"><PARAM =
+NAME=3D"quality" VALUE=3D"high">
+                                                                         =
+       =20
+                                                                         =
+       =20
+                                                <embed=20
+                                src=3D"images/300x250_FD_LIC_stat1.swf"=20
+                                quality=3D"high"=20
+                                =
+pluginspage=3D"http://www.macromedia.com/go/getflashplayer"=20
+                                type=3D"application/x-shockwave-flash" =
+width=3D"230"=20
+                                height=3D"150"></embed>                  =
+         =20
+                                        </OBJECT></TD>
+                                <TD vAlign=3Dtop><IMG height=3D118=20
+                                =
+src=3D"http://www.licindia.com/images/Right_Big_Line.jpg"=20
+                                =
+width=3D17></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>=
+</TBODY></TABLE></TD></TR>
+              <TR>
+                <TD vAlign=3Dtop colSpan=3D2>
+                  <TABLE height=3D18 cellSpacing=3D0 cellPadding=3D0 =
+width=3D768=20
+                  align=3Dcenter border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=3Dtop width=3D22 height=3D18 =
+rowSpan=3D4><IMG=20
+                        height=3D79=20
+                        =
+src=3D"http://www.licindia.com/images/bigleftbottomcurve.jpg"=20
+                        width=3D21></TD>
+                      <TD class=3Dbasetext width=3D709=20
+                      background=3Dhttp://www.licindia.com/images/bg.jpg =
+colSpan=3D2=20
+                      height=3D21 bacground=3D"images/bg.jpg"><IMG =
+height=3D1=20
+                        =
+src=3D"http://www.licindia.com/images/Spacer.gif"=20
+                      width=3D1></TD>
+                      <TD vAlign=3Dtop width=3D22 height=3D18 =
+rowSpan=3D4><IMG=20
+                        height=3D79=20
+                        =
+src=3D"http://www.licindia.com/images/bigrightbottomcurve.jpg"=20
+                        width=3D21></TD></TR>
+                    <TR>
+                      <TD vAlign=3Dtop align=3Dmiddle width=3D709 =
+colSpan=3D2=20
+                        height=3D5><DIV align=3Dcenter>
+                        <P class=3Dbasetext><SPAN class=3Dbotlinks><A =
+class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/index.htm">Home</A> | <A=20
+                        class=3Dbotlinks=20
+                        href=3D"http://www.licindia.com/media.htm">Media =
+Room</A>=20
+                        | <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/tender_notice.htm">Tenders</A>=20
+                        | <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/download_forms.htm">Download=20
+                        Forms</A> | <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/nri_centre.htm">NRI=20
+                        Centre</A> | <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/glossary.htm">Glossary</A>=20
+                        | <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/associates.htm">Operations/Associates</A>=
+=20
+                        <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/privacy_policy.htm"=20
+                        target=3D_blank>| </A><STRONG><A =
+class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/images/Foreword_ECS_4r_Web.pdf">Engineeri=
+ng=20
+                        Consultancy Services</A> <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/privacy_policy.htm"=20
+                        target=3D_blank>| </A></STRONG><A =
+class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/feedback.htm">Feedback</A>=20
+                        | <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/faqs.htm">FAQ</A></SPAN>s=20
+                        <SPAN class=3Dbotlinks><A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/grievances.htm">Grievances</A>=20
+                        | <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/sitemap.htm">Sitemap</A> |=20
+                        <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/privacy_policy.htm"=20
+                        target=3D_blank>Privacy Policy</A> <A =
+class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/privacy_policy.htm"=20
+                        target=3D_blank>|</A> <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/rtiact_popup1.htm"=20
+                        target=3D_blank>Right to Information Act-2005 =
+</A><A=20
+                        class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/privacy_policy.htm"=20
+                        target=3D_blank>| </A><A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/images/licact.pdf"=20
+                        target=3D_blank>LIC act</A> | <A =
+class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/careers.htm">Careers </A>|=20
+                        <A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/images/Details_CAs.pdf"=20
+                        target=3D_blank>Corporate Agents</A></SPAN><SPAN =
+
+                        class=3Dbotlinks><A class=3Dbotlinks=20
+                        =
+href=3D"http://www.licindia.com/annual_report.htm"> |=20
+                        Annual =
+Report</A></SPAN><BR><BR><BR><BR></P></DIV></TD></TR>
+                    <TR>
+                      <TD vAlign=3Dtop align=3Dmiddle width=3D614 =
+height=3D45>
+                        <P align=3Dcenter><SPAN=20
+                        =
+class=3Dbreadcrums2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;=20
+                        Insurance is the subject matter of=20
+                        =
+solicitation</SPAN><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+                        <SPAN class=3Dcopyright><A class=3Dbreadcrums2=20
+                        href=3D"http://www.irdaindia.org/"=20
+                        target=3D_top>IRDA</A>-Registration number :=20
+                        =
+512<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+                        =C2=A9 Copyright Life Insurance Corporation of =
+India=20
+                        =
+2004<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=20
+                        Designed by: <A class=3Dbasetext=20
+                        href=3D"http://www.tribalddbindia.com/"=20
+                        target=3D_blank>Digital Branding=20
+                      Solutions</A></SPAN></P></TD>
+                      <TD vAlign=3Dtop align=3Dleft width=3D97 =
+height=3D45><A=20
+                        =
+href=3D"javascript:popUp('https://servicecenter.verisign.com/cgi-bin/Xque=
+ry.exe?Template=3DauthCertByIssuer&amp;remote_host=3Dhttps://digitalid.sa=
+fescrypt.com/global/cgi-bin/haydn.exe&amp;form_file=3D../fdf/authCertByIs=
+suer.fdf&amp;issuerSerial=3D0df9f1cbe864f3b087d3e7cfab443dd5')"><IMG=20
+                        =
+src=3D"http://www.licindia.com/images/verisign_logo.gif"=20
+                        border=3D0></A></TD></TR>
+                    <TR>
+                      <TD vAlign=3Dtop align=3Dmiddle width=3D709 =
+colSpan=3D2 height=3D21=20
+                      rowSpan=3D2></TD>
+                      <TD vAlign=3Dtop width=3D7 height=3D21>&nbsp;
+                        <SCRIPT language=3DJavaScript>
+function getParam()=20
+{
+    var url,q,para;
+    url =3D document.location.toString();
+    q =3D url.indexOf("?");
+    if (q !=3D -1 )=20
+     {
+       para =3D url.substr(q+1,url.length);
+       if (para.indexOf("&") !=3D -1)=20
+         {
+            para =3D para.substr(0,para.indexOf("&"));
+         }
+    =20
+     var result=3D unescape(para);
+	if (result=3D=3D'error=3Dyes')
+		document.getElementById('log').style.display=3D"";
+	else
+		document.getElementById('log').style.display=3D"none";
+    }
+}
+                        </SCRIPT>
+                        =20
+      =
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></T=
+ABLE></TD></TR></TBODY></TABLE><MAP=20
+name=3DMap><AREA shape=3DPOLY coords=3D134,55,42,53,45,43,132,43,133,54=20
+  =
+href=3D"http://www.licindia.com/GJF_home.htm"></MAP></DIV></BODY></HTML>
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/lic_logo.jpg
+
+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
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Contactus.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEgA9AwERAAIRAQMRAf/EAHgAAQACAgMAAAAAAAAAAAAA
+AAADBQIGBAcIAQEBAQEBAQAAAAAAAAAAAAAAAQMEAgUQAAICAQIFBAEDBQEAAAAAAAIDAQQREgUA
+ISITBjEyFBVBUWEjQjNDVBYHEQADAAICAwAAAAAAAAAAAAAAAQIREiETQVED/9oADAMBAAIRAxEA
+PwD0ta3qk2vcHb7iXWqZCFgFGDCUUnp0sGJLTPSUYn9ONIjlZR4uuHg1bafN7+56TUqwms5cPp2m
+rT2nqnEwYSEnIZghmBbAFMT6cix0L5y/Bi7r2Zs87proL3Bm81QoOLQm4TEQkyjPSLJ6ZnoLlE/i
+eHXA3oO83lO91tlZcGL9tLLCVT2omRVIxjTPVktRSOI5wJfpw64zgb0F+d02UGbgveap0ElodcFi
+JSBTjpJkdMT1jymfzHDrgb0Nt83ncbe4VKlwWO2x0V7Qj2iwUgJ5wOZxmZDnjqEo/HBfOGHdENb/
+ANAl6aD5eSE36B7mDXCoBWhcJku6WcDMRYH9uU8+HXHob0cr/tFfXfZ/a1/rf97Wnse7R/d9nv6f
+X15cOqCdlFq7xzZdqRutyhX7Nnc2C68zWwu4fcks4MigebC9uOMvnbdJPwa3KSZpNbxizGzt2O1f
+7m0/DLbqykqhTYSQdqCawibraIRykRAczMyM8tPTrxgwyZ1/HHDZRcs2hZcG/O4WSWqVrMvhFREF
+gRsIIhciU5IszE+kTyYGSFfi9+tV2pVLcRQ7bNsdtkWCR3JKWLTAOEZZAjIMriWktUTGY/fiajJD
+t/h12nXIo3EWbiN+dwRYYt7VwU1IpyDBdYa5kdvVMfzRicf0xpkpDos9i2M9pZcEHi2rYJBpXChU
+S5TWVWnMrkVzBQgZiAWEDz/GMVLBG8lYPhtqKiqxXEsCjV+BtWuuz+NOtJa3SDwI3D8VehiyVpLq
+iPTE1LsW31Vz6H6757PldvR83q1ZznHu7unHTnudzT/k19fFxwTPJ2Tx887RwA4AcAOAHADgBwB/
+/9k=
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/aboutus.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEgA3AwERAAIRAQMRAf/EAHgAAAICAwEAAAAAAAAAAAAA
+AAAEAwUCBgcIAQEBAQEBAQAAAAAAAAAAAAAAAQMCBAUQAAEDAwIFAwMFAQAAAAAAAAIBAwQREgUA
+EyExIhQGMiMVQVEWYjNjJFQHEQEAAgIDAQEAAAAAAAAAAAAAAQIREyESA1FB/9oADAMBAAIRAxEA
+PwD0jkM7ENt0MdNZdkxnUalttGDhNKqElrgpdatQXn9tbeXnmeYZel8Rw1Yv+iIkfKvi84Y4htx6
+QKNhUwaVwCVutEX3I7rfVTiNfSoku2unxn3sc/M2/jvkvlI/x3+29nY9Vn7no9fTz58NNVE2WTP+
+Tvx69xNbZtbN4tzbGjTVNxxaonSFyXLySurqqbLFsd5suRl5CLFmC49jXkjyhTaKhKAnWg1WlVUO
+NOoST6akedJJvZg15w+72tpuJ3cyRAbqDfB2Lv3qX6V7UqfXlw+zXX4veyaN5m3KhuzY2Ujvw2Lt
++S2bJtBYNxXGNRG0VqtV5aaqJssbynjWLxbE+XiWRjT8o/uyXzVx0Seo4QmTZGnBCcVVEVHXHleZ
+nE/kO/SsRDSD8AhNwO0hTJDdce/iyOS67KTZfbELgA3BBshNoF6EQaVG30qO3Rl2Ofjky3ue8b+W
+7zv9/YLtt3tuzpsbt9ux/NW/qrTp1cGUOT8O38RGx0GX2/b493Eo6+3v1jPg2BraJMe57AUKtOfS
+teEmvBFlrAxr0XIZOQrwuM5B5uQDSAok2QsNsEincqGhIyKp0pTjz11EJMq1zxZ4yVopLLkBt6VL
+ixnY6mu/MF5HEfLcQXWf7TnQgAtKJdwW6dVycg4ibHwr0B2cT8hwXECQSvUbvSiWqTxSKIvHi+pV
+raQpagojhMuma+e9o0BoDQGgNAaD/9k=
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/hindi.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEQAeAwERAAIRAQMRAf/EAGgAAAIDAQAAAAAAAAAAAAAA
+AAAGBAUHCAEBAQEAAAAAAAAAAAAAAAAAAAECEAACAgIBAwMDBQAAAAAAAAACAwEEEgURABMGISMH
+MUEiYYIzFBURAQEBAQAAAAAAAAAAAAAAAAABAkH/2gAMAwEAAhEDEQA/AOnI29N4XQ1rk37tKCht
+RTgyFsZYrZMTPbkiGY/Lq3NiSxmWg8o8n12t1u3tI2ezu7Wsd1+rBkXhf3ZGRJIpTjUhcmIhEmIY
+85wR+4MUw7/z/c6wW1D0pf6jKzn06tZpXXlCogc+xWS1kBBmIyRRA8zEc8z0EPV7T5Bfot3prY2F
++QUK1Wzr762UJtMGyM8iyOzNaGC1DY/giO3jx+fJdA5avxzTaq7fuUK/ZsbNnevMzYXcZkRZcGRQ
+PqwvQYj69a1u2SXjMzIWW/G0DW0KgaFtuopTrIsO9piFswyuU+BcKrQ9ocZ4/cP3y0nXPjjShr21
+/HWM8XttRNZmx1QJB7FzE+jSatvcmCnKGT7gzziY5FyFnW0D0X79/wDukVm9TrVM8IjA6ve936+s
+lL+cf06C46A6A6A6D//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/search.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgADgAlAwERAAIRAQMRAf/EAGYAAAIDAQAAAAAAAAAAAAAA
+AAQFAgMHCAEBAAAAAAAAAAAAAAAAAAAAABAAAQMDAwMDAwUAAAAAAAAAAgEDBBESBRMUBgAhFTFB
+IjMWB1GBQkM2EQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDofj/Mms9kp8eBCdKFjZcj
+HyZxOMogyYpWOCrN6uolyUFVHv60tVF6Bm3n8E5HkSW8jFOPEWkp4Xm1Bpf0cJCoP79BIc7hCGKQ
+5CMozUrCJHm6PJcIVa7/AD+bgj8fdUT36BdyDmuDw2PmS1fCY7ANluVDjuNk8CyHgYG4LqjQnE9e
+gN+4+PbLfeUibLV0N1rtaWtWmnfdbfXtbWvQZhl4+Lm/k0wbehYjMR25Z5qRhnZcqTJx6xngZbyL
+LUUI7LiXi4BOukVRtbrd2ATjkTHFw6BDiS8WOYYYwQeTlnJRZMFuQuyNkMhGLbuOkhLGQAcRHFVA
+70XoKuGY7j7OW4AWRycCS4y5yvx4OjIudkvZZs00FkMNJqMKigV9qqX07079APk4PHE/H+Tgzp+K
+NlHJZxcw6skZZQVzrTktuTHSOTo2yF0jIVJFNBJaIvYDPH8Y8nqeTxvh/vvcaNru3/zuntvo6N/9
+lbtKn87/AI9B/9k=
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/home_login_button.jpg
+
+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
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/spacer.gif
+
+R0lGODlhAQABAIAAAP///wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/gjf_homepage_img.gif
+
+R0lGODlhywBEAOYAAMjO4FxtoSU8gv39/f7+/re3t5KewXeFsfHz99ba505hmoWSuTNIikBUkvz8
+/K220OTn72l5qZ+pyPv7+7vC2Pr6+vLy8ri4uPn5+fPz8+rq6vT09Ovr6/Hx8dPT0+fn5+zs7L29
+vff39/j4+PX19fDw8Pb29uTk5N7e3sLCwrq6uu/v77m5uejo6N/f3+np6ebm5u7u7tLS0u3t7dTU
+1M3Nzd3d3b+/v9HR0cXFxcjIyMnJydzc3M7OzuPj49DQ0NbW1uLi4tjY2OHh4cHBwcfHx9nZ2dfX
+18zMzMbGxuXl5dra2tvb27u7u8PDw8DAwODg4M/Pz8rKyry8vMvLy9XV1TMzM////wAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAADLAEQAAAf/gFeCg4SFhoeIiYqLjI2Oj5CRkpMDDg6TmIcEm5ydnp+goZwDpKWm
+p6ipqqusra6vA4qVlgMEhg4Tl1cOGIgEppbBExMVxRjHIyLKJiQkGxkZFh0lJSsxMyAgHBovLR8w
+Sic+QUNQLi42NjxMS0ZCR0BVNDQyMjg/UT01SFRSOzs6iiTJkcNJihREnty4EaLhlCYqVLC4QPFC
+gYsYM2rcyLGjx48gC1QceYEFCxUhUuiogcODS5coXHzIECuTzZs4c+rcOemXLUMDLMBAgQKGCZ5I
+kypdylTQp0I/r2x48YFD06tYs2qN9HMAiRggJgiqtLWs2bM8K/10MEJDi1xo/+PKnevoV01BGDRk
+IEG3r9+/nAYN4LBi09/DiMvaHSC2A4ejiSNL3pnrJydiVzRYncy5syRaUfFe6fChgufTqBfVKpRr
+QrfUsGMn+rnhhOzbuGnbxs0b9k8NpnsL7/w7+PDjiYs7ggAgASMEABAYSuDcJnTpiZgbun6FuyTo
+AMIDgKCU+iPvPJUvQhCAgYEIDaojAiAAgKEAAW7St5/IgABD+10RoCT0KYBfAA8ohd8i8g2YniAc
+GJdIAAJU10ADijg4yII2aWiIf9tFJ2B9k3iYFIeILJCfIOjlZMtPYTEowIpXUMjfISaiiImJhICY
+CI+MALmTjvfRqNSLgswglv8iDwiwACIJHBDAAdUNCEAEAVDA4ZVTkvdAfhJMiR2AJH45yAJPXuFf
+AlgmeEUCAThnJZYHkCcgnXYO4mGUU1ZnpiBoCmJmmAeMyaWWK/IZAX/tMbAgnNXxSaWgYIrJCJJX
+xKBLfwIY0J140kHAgARXSMAAeQFCIECCCzg6YoIHYOjfAhEsIMAB85HoY40r+hcBAgkwkGCAxK56
+RayvHoshIfRJAKqopJpK3q4czlrrrYKoyqqrCDDwpAEMYIdiqqOWeqqaTl6L6yKYrnAXIv55CqcC
+JLY6iLcj2rfAsgjMeGynBhxQn6+CGJirfdT2KgAFghygQL4QC2xAwPVJTPH/jSMaiF8C9gqCb8KC
+EHyFwVfsy6K/EBiAKom86lkvA/d+K0AEBRvpyxWGlRDaIRJ06rJ9KC4YIIr+BqCAeNGtKQiRP6O7
+ocL8gVgs0EeDajTSY0L89NYgo1sdh0QbCUHPjNI4NI0LKt0yuzjbovMi9JlNYtD5nT1I0csO0jWZ
+CP8nSANQh/zf1DXmvbThhWhIt9N/K7z12lf4qyYDEQhcdtOL7z1b26M10kC4ggSI7N+4is6vv/5h
+rDkhFOjqd9yCkN0whoSn3iPLfBMy+hUN4Ooj7IyvPXq/+TUpJ8vjkrh778EzbciLtnTQSOvrtm4f
+4QG2zirKDCiQ5+rgKQBz/6mdUtAAyao+2a2nhIvq/SDu58ks7hAH2LMB5pPctfYl+9uzdBFA3sNC
+R6La+Q1ym/vFFSzgCAooAHAIGsQDDKQANw0IXE7iEJtmRKXVJUAAAlAAw7pDIQXAiUb5U0CaCPem
+APaphRyUj9YkSEE3sSeEJxTc4yaXwfywpwERsN2bzvekAU3QaG5anSZwFgsGIueJfrEFKRYIxSrO
+RYq2cKIVt3iWmmiRi2DMihfDSEasjLGMaFTKGdPIRp2ssY1wzMQb40hHSMyxjnhUjSAykMc+MqIm
+fPSjIA8ByEEakhCFjIwVFLFIRjZSEo/ERCSFk0i6WOGSg2jkJAWxSUJ08v8Rn7xCKEXJySfWZAN9
+eaQmGcnKTIRylJl8Im0seYhVchKTtvTkJTWJyVJucpeq7CUwb6nKUhKTN7OcSydtGclFfrKYxuyl
+J2NJymjW0prV7I1hTLAzsywTm8e8pjGr+c1oDjObotwlOKV5G8OIoJvepCYzp4lOamYzl/QkpyGg
+qc96wpI4BBgBPL0pzVyqk5/2TCdCdVlQdd6SmPNUqHA2IdBDWnQTGBhoVoDJ0Y569KMgDalIR0pS
+dvqGABm16CFt0QuVGtIWEnJpH2Eq00HStKZ+tMWScJpHnfJ0plfY6U/paItNDTWORT1qHo2qVDi+
+q6ltfCpU0yjVqZaxqlYFDWMsAgEAOw==
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/insurance_plans_home.jpg
+
+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
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/pension_plans_home.jpg
+
+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
+FAKAUAoBQCgFAKAUB//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/unit_plans_home.jpg
+
+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
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/special_plans_home.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgATwBtAwERAAIRAQMRAf/EAJYAAQACAwEBAAAAAAAAAAAA
+AAACBgMEBQcBAQEAAwEBAQAAAAAAAAAAAAAAAQIDBAUGEAABAwMCAggDBQYHAAAAAAACAQMEABIF
+EQYhEzFB0xSUVgcYUSIkYXGxsnOBkaEyQnKiIzNDgxUIEQACAQEHBAEEAgMAAAAAAAAAARECIVGh
+4VIDEzFBEhVxYYHBIvCxMiMF/9oADAMBAAIRAxEAPwDyavrTyxQCgFAKAUAoBQCgFAKAUAoBQHuA
+f+Y3zATTcQ6EiKmsRev/AJq8xf8AQenHI3e0ryXtgkeYg8IvbVPsHpxyHErx7YJHmIPCL21PYPTj
+kOJXj2wSPMQeEXtqewenHIcSvHtgkeYg8IvbU9g9OOQ4lePbBI8xB4Re2p7B6cchxK8e2CR5iDwi
+9tT2D045DiV49sEjzEHhF7ansHpxyHErx7YJHmIPCL21PYPTjkOJXj2wSPMQeEXtqewenHIcSvHt
+gkeYg8IvbU9g9OOQ4lePbBI8xB4Re2p7B6cchxK8e2CR5iDwi9tT2D045DiV49sEjzEHhF7ansHp
+xyI4lee8Rh+ma/sH8K8yl2G76mS2rSQLaSBbSQLaSBbSQLaSBbSQLaSBbSQLaSBbSQLaSBbSQIg/
+Ss/2D+CVmnYWfUy21MgpvqrmMzh9tsTMcTzMfvscMxMiti7IjwCVee80BCaXJoKa2roi61tsJOqH
+/GY7zaVhqw9zbb27tqRugtxzM/gpBx2wccNmRyTI+WtqgDJJqppeJ8U0/ZVnRVVV4xDIVSpXlMo6
+DfqVtlGMs7N7xjCwrISZrE1kmneQ7/puAPzXIa8EROOvBURarxVWRbJblVv0JSfUbAwlkt5RqVjZ
+caO1LSHIbRXnWn3UZbVoWidQlJ1UC3W5FXiiVC2m+loe4l1NHLb2xD70WG6/PxOQi5jHw5MMQa5q
+nL1Jht1UJxtWHk1uICVeHxq1O2+tjsZDrXxajov+oGDYnLHcakpFGeOKPJ8tEijNPREaUlLmfzLa
+p2WIXC6qracfaSeRTga3p3lMjkXt1jNkE+kHcEuJEQ/9thtpkhbH7EU1qd1JRGkbTbn5LhbWMmot
+pIFtJIFtJJFtJB8hj9Ix+mP5UqiZZma2pkHNz0zLQoQvYzFll31NBOIDzTBctUXUxJ5RBdF0+VVS
+rUQ3a4K1NpWKTxLfmzspGw24s23iwwEfMysSyxhldbO6QEsbpDvd1caC69B+RV61ru2txNpTMTac
+e5tuG4iYLPuf0/3JvSTuKdJh/wDSHKxMXGYxiQ4y8Tj0aWs1XHOSTwC2rgiCa8VHiop0VlRvU0Qu
+ts/g0r2nXL6WG1mNmTc3tZW4O2I+29yxSYltOoMPu7r8V4HeSjkczd5bihwuFOrWop3VTVa5p+5N
+W23TYoZ0N043cO4ouAcbwT0CXCzmMnTwediL/kR3FJ0xNp470bT46EvUNVoqVM29mWrpdUWd0V3c
+m2/UvMzEamY92SkfOsS48oJrLcIcc0+JgjcZCAicEE+fmjr02qvBK0oroSsfa7uZ10Vvt3wLpsDA
+ZXEvbpLIMclMjnpU6EtwHfHdbZED+RSt1UC4Fov2Vhu1pxHZG21S1M3lstrKTUW0kQLaSBbSQLaS
+CMIfo2P0w/KlUksZ7amRAtpIg0cvg8ZmIfc8kwkiMjjbyNqpCl7RoYFqKovykKLU01ulyitVKfU3
+raiS0C2kiDRzk8sZhMhkhbR0oUZ6SjarohK02p268dNbatSpaRWpwmyhTfVPNYrEhNy2HjiU7Dv5
+nFFGkm4BpGbbccYeQ2mybJBeFbkuRa6FsJuE+8GD3mlLXaS9jm8UKxGpMtiPMmgJsRXHQFw7k/oE
+lQi4/BK5/Fm/kiSZnCq+EdJ8ZX3HDZbZ5zd5OtrobaDrqpCvSnSlR4u4eSJtZPFuznIDUxhycylz
+sQXAV0E+JNotydPWlIcSJUwbdtRJaBbSRAtpIghBT6KP+mH5UqpJm0oBpQDSgGlANKA5O747z+08
+2ww2Tr7sCUDTQIpGRkySCIinFVVehKvtv9l8ldxfq/goGR2CzH9Jpr7MOZL3G/t/ugA+ciTIbuYF
+SjMsmpcv5x4gApx6eiuhb07i0+Rzva/1/XxObvyLuCRFzcKFhXm3TZxKNvMQZEh+bySbcUu8IqNM
+pGK5LLVPVNeur7Tpsbd/foV3U7UlcRe2VIHB5WaOIePMPbz7206rBk+kUcqhC41qNws8tSPUfl4q
+XXRbtqU2eH4HHY3Fvl+Tu7UhZTG7/fjYtuZJ25LcnSpw5KE6wUGU64hqsWW6AI+3IP8ApFS0Tiq1
+nuNOi3/Kzo+v2L0Jquzp/Re9wZI8bi3ZTYoTg6CCL0akumq/dXKdJV8ZubMBOhrJe7zFmqg2EAgQ
+qpWEqInUhdC9C/fqiAXnSgMcNNIbCfBsE/wpUEmagFAKAUAoBQCgFAKAUBhmQ48yM5GkDey4mhJ/
+FFT7qA5EDaGOiTRlk47Icb05KOqioNqIg9CJraicKA7tARbG1sR+CIn7koCVAKAUAoBQCgFAKAUA
+oBQCgFAKAUAoBQCgFAKAUAoBQCgFAKAUB//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/group_scheme_home.jpg
+
+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
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Left_Curve.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEgARAwERAAIRAQMRAf/EAGAAAQEBAAAAAAAAAAAAAAAA
+AAADCAEBAAAAAAAAAAAAAAAAAAAAABAAAQMBAw0AAAAAAAAAAAAAAQACAxGBUhQhMWGREjKy0hMz
+cwRUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDVJIAqcyCGLa7tMfMLzANmxzi0GxAx
+M3yy64udAI68zmHLDFQOF59K0OgBBdAQQ9Pdl8r+JBdAQf/Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Straight_Line.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEgDtAwERAAIRAQMRAf/EAFwAAQADAQAAAAAAAAAAAAAA
+AAABAgMIAQEAAAAAAAAAAAAAAAAAAAAAEAACAgIBBQADAAAAAAAAAAAABJIU01UDAZEC0lQRYcER
+AQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOorPN8vL34vcBZ5vl5e/F7gZXmtcxJfKAvN
+a5iS+UBea1zEl8oC81rmJL5QF9rXMSXygLzWuYkvlAXmtcxJfKAvNa5iS+UBea1zEl8oC81rmJL5
+QF5rXMSXygLzWuYkvlAXmtcxJfKAvNa5iS+UBea1zEl8oC81rmJL5QF5rXMSXygLzWuYkvlAXmtc
+xJfKAvNa5iS+UBea1zEl8oC81rmJL5QF5rXMSXygLzWuYkvlAXmtcxJfKBN5rXsSXygT4uMdev46
+o8/j++vlwfzk6gXsc3y8vfi9wNwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAf//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Right_Curve.jpg
+
+/9j/4AAQSkZJRgABAgEASABIAAD/4QN7RXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUA
+AAABAAAAYgEbAAUAAAABAAAAagEoAAMAAAABAAIAAAExAAIAAAAUAAAAcgEyAAIAAAAUAAAAhodp
+AAQAAAABAAAAnAAAAMgAAABIAAAAAQAAAEgAAAABQWRvYmUgUGhvdG9zaG9wIDcuMAAyMDA1OjEw
+OjE4IDE2OjIwOjA5AAAAAAOgAQADAAAAAf//AACgAgAEAAAAAQAAAA6gAwAEAAAAAQAAABIAAAAA
+AAAABgEDAAMAAAABAAYAAAEaAAUAAAABAAABFgEbAAUAAAABAAABHgEoAAMAAAABAAIAAAIBAAQA
+AAABAAABJgICAAQAAAABAAACTQAAAAAAAABIAAAAAQAAAEgAAAAB/9j/4AAQSkZJRgABAgEASABI
+AAD/7QAMQWRvYmVfQ00AAv/uAA5BZG9iZQBkgAAAAAH/2wCEAAwICAgJCAwJCQwRCwoLERUPDAwP
+FRgTExUTExgRDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwBDQsLDQ4NEA4OEBQO
+Dg4UFA4ODg4UEQwMDAwMEREMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEI
+ABIADgMBIgACEQEDEQH/3QAEAAH/xAE/AAABBQEBAQEBAQAAAAAAAAADAAECBAUGBwgJCgsBAAEF
+AQEBAQEBAAAAAAAAAAEAAgMEBQYHCAkKCxAAAQQBAwIEAgUHBggFAwwzAQACEQMEIRIxBUFRYRMi
+cYEyBhSRobFCIyQVUsFiMzRygtFDByWSU/Dh8WNzNRaisoMmRJNUZEXCo3Q2F9JV4mXys4TD03Xj
+80YnlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3EQACAgECBAQDBAUGBwcG
+BTUBAAIRAyExEgRBUWFxIhMFMoGRFKGxQiPBUtHwMyRi4XKCkkNTFWNzNPElBhaisoMHJjXC0kST
+VKMXZEVVNnRl4vKzhMPTdePzRpSkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2JzdHV2d3h5ent8f/
+2gAMAwEAAhEDEQA/APUfVbMOBYf5Q0/zh7URNAIgocAE1mdp1b/FqSn/0PVUN/06/ifyFfLKSSn/
+2f/tCBpQaG90b3Nob3AgMy4wADhCSU0EJQAAAAAAEAAAAAAAAAAAAAAAAAAAAAA4QklNA+0AAAAA
+ABAASAAAAAEAAQBIAAAAAQABOEJJTQQmAAAAAAAOAAAAAAAAAAAAAD+AAAA4QklNBA0AAAAAAAQA
+AAAeOEJJTQQZAAAAAAAEAAAAHjhCSU0D8wAAAAAACQAAAAAAAAAAAQA4QklNBAoAAAAAAAEAADhC
+SU0nEAAAAAAACgABAAAAAAAAAAE4QklNA/UAAAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEA
+oZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAA
+AHAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gA
+AAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAA
+OEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAAADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA0sA
+AAAGAAAAAAAAAAAAAAASAAAADgAAAAsAUgBpAGcAaAB0AF8AQwB1AHIAdgBlAAAAAQAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAOAAAAEgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA
+AAAAAAAAABAAAAABAAAAAAAAbnVsbAAAAAIAAAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAA
+BAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAAEgAAAABSZ2h0
+bG9uZwAAAA4AAAAGc2xpY2VzVmxMcwAAAAFPYmpjAAAAAQAAAAAABXNsaWNlAAAAEgAAAAdzbGlj
+ZUlEbG9uZwAAAAAAAAAHZ3JvdXBJRGxvbmcAAAAAAAAABm9yaWdpbmVudW0AAAAMRVNsaWNlT3Jp
+Z2luAAAADWF1dG9HZW5lcmF0ZWQAAAAAVHlwZWVudW0AAAAKRVNsaWNlVHlwZQAAAABJbWcgAAAA
+BmJvdW5kc09iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAAAAAAAAExlZnRsb25n
+AAAAAAAAAABCdG9tbG9uZwAAABIAAAAAUmdodGxvbmcAAAAOAAAAA3VybFRFWFQAAAABAAAAAAAA
+bnVsbFRFWFQAAAABAAAAAAAATXNnZVRFWFQAAAABAAAAAAAGYWx0VGFnVEVYVAAAAAEAAAAAAA5j
+ZWxsVGV4dElzSFRNTGJvb2wBAAAACGNlbGxUZXh0VEVYVAAAAAEAAAAAAAlob3J6QWxpZ25lbnVt
+AAAAD0VTbGljZUhvcnpBbGlnbgAAAAdkZWZhdWx0AAAACXZlcnRBbGlnbmVudW0AAAAPRVNsaWNl
+VmVydEFsaWduAAAAB2RlZmF1bHQAAAALYmdDb2xvclR5cGVlbnVtAAAAEUVTbGljZUJHQ29sb3JU
+eXBlAAAAAE5vbmUAAAAJdG9wT3V0c2V0bG9uZwAAAAAAAAAKbGVmdE91dHNldGxvbmcAAAAAAAAA
+DGJvdHRvbU91dHNldGxvbmcAAAAAAAAAC3JpZ2h0T3V0c2V0bG9uZwAAAAAAOEJJTQQRAAAAAAAB
+AQA4QklNBBQAAAAAAAQAAAABOEJJTQQMAAAAAAJpAAAAAQAAAA4AAAASAAAALAAAAxgAAAJNABgA
+Af/Y/+AAEEpGSUYAAQIBAEgASAAA/+0ADEFkb2JlX0NNAAL/7gAOQWRvYmUAZIAAAAAB/9sAhAAM
+CAgICQgMCQkMEQsKCxEVDwwMDxUYExMVExMYEQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMAQ0LCw0ODRAODhAUDg4OFBQODg4OFBEMDAwMDBERDAwMDAwMEQwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAz/wAARCAASAA4DASIAAhEBAxEB/90ABAAB/8QBPwAAAQUBAQEBAQEAAAAA
+AAAAAwABAgQFBgcICQoLAQABBQEBAQEBAQAAAAAAAAABAAIDBAUGBwgJCgsQAAEEAQMCBAIFBwYI
+BQMMMwEAAhEDBCESMQVBUWETInGBMgYUkaGxQiMkFVLBYjM0coLRQwclklPw4fFjczUWorKDJkST
+VGRFwqN0NhfSVeJl8rOEw9N14/NGJ5SkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2N0dXZ3eHl6e3
+x9fn9xEAAgIBAgQEAwQFBgcHBgU1AQACEQMhMRIEQVFhcSITBTKBkRShsUIjwVLR8DMkYuFygpJD
+UxVjczTxJQYWorKDByY1wtJEk1SjF2RFVTZ0ZeLys4TD03Xj80aUpIW0lcTU5PSltcXV5fVWZnaG
+lqa2xtbm9ic3R1dnd4eXp7fH/9oADAMBAAIRAxEAPwD1H1WzDgWH+UNP84e1ETQCIKHABNZnadW/
+xakp/9D1VDf9Ov4n8hXyykkp/9kAOEJJTQQhAAAAAABVAAAAAQEAAAAPAEEAZABvAGIAZQAgAFAA
+aABvAHQAbwBzAGgAbwBwAAAAEwBBAGQAbwBiAGUAIABQAGgAbwB0AG8AcwBoAG8AcAAgADcALgAw
+AAAAAQA4QklNBAYAAAAAAAcABAAAAAEBAP/hEkhodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+ADw/eHBhY2tldCBiZWdpbj0n77u/JyBpZD0nVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkJz8+Cjw/
+YWRvYmUteGFwLWZpbHRlcnMgZXNjPSJDUiI/Pgo8eDp4YXBtZXRhIHhtbG5zOng9J2Fkb2JlOm5z
+Om1ldGEvJyB4OnhhcHRrPSdYTVAgdG9vbGtpdCAyLjguMi0zMywgZnJhbWV3b3JrIDEuNSc+Cjxy
+ZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4
+LW5zIycgeG1sbnM6aVg9J2h0dHA6Ly9ucy5hZG9iZS5jb20vaVgvMS4wLyc+CgogPHJkZjpEZXNj
+cmlwdGlvbiBhYm91dD0ndXVpZDpkMjcxYWRiZi0zZmM0LTExZGEtYmQ1ZC1iMjk5NTg4MGVlNTAn
+CiAgeG1sbnM6eGFwTU09J2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8nPgogIDx4YXBN
+TTpEb2N1bWVudElEPmFkb2JlOmRvY2lkOnBob3Rvc2hvcDpkMjcxYWRiZC0zZmM0LTExZGEtYmQ1
+ZC1iMjk5NTg4MGVlNTA8L3hhcE1NOkRvY3VtZW50SUQ+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCjwv
+cmRmOlJERj4KPC94OnhhcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSd3Jz8+/+4ADkFkb2JlAGQAAAAAAf/bAIQABgQE
+BAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAEHBwcNDA0YEBAYFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwM/8AAEQgAEgAOAwERAAIRAQMRAf/dAAQAAv/EAaIAAAAHAQEBAQEAAAAAAAAA
+AAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIG
+AnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPBUtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6Oz
+NhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dn
+d4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZqbnJ2en5KjpKWmp6ipqqusra6voRAAICAQID
+BQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEyobHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LC
+B3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaW
+prbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq
++v/aAAwDAQACEQMRAD8A9RC6TlxkVoidhzFAf9kKr+OKq+Kv/9D1QQGBBFQeoOKocKAxt2J4MKx7
+77Hda/5/Dir/AP/R9U4qozf39v8A6zf8ROKv/9k=
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Left_Line.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAQAAOAwERAAIRAQMRAf/EAF4AAAMBAQAAAAAAAAAAAAAA
+AAABBAMIAQEAAAAAAAAAAAAAAAAAAAAAEAACAQMDAwUAAAAAAAAAAAAAAgERAwQxgQWxszSRoSNz
+dBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6f42a47zWvz5Eel94AqAk4vxn/Rk99wK
+wJeN8d/vyO+4FQGGDbe3ZZWikzdvNs11mj2kDcBLpvPUBgJdN56gMAgAAAAD/9k=
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Tools.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAFADnAwERAAIRAQMRAf/EAH4AAQACAgMBAAAAAAAAAAAA
+AAABBgMFAgQHCAEBAQEBAQAAAAAAAAAAAAAAAAMBAgQQAAAFAgUDAgYDAAAAAAAAAAABAgMEEQUh
+0ZJTFDESBlEiQWGBExYHoTKCEQEBAAIBAwMFAAAAAAAAAAAAARECAyFhE0FRkaGxEiJi/9oADAMB
+AAIRAxEAPwD6pAYZjT70dbcd84zyqdr6UpWaaGRn7VEacSwGxlUrxLy6T+Nxr55DcFOqmy5Nviw2
+Y5Ga3mpbrDRNpaSpalKQxU/h1PAiF+Tj/bGsT036ZrdF5742ppg2nXnpEl19huE1HeVJ+7FpyEKZ
+JPek2ql3dxUxL1Ks/Fs68kal79iW9N/jvlNb/FnLHJuzko0KqSmJLLRH07yolxRGjtrX5jvw3H9Z
+w58kz2wtltuTNwjm+0280SVGg0SGlsqrQjqRLJNSMjLEsP5EdtcKS5dsY0AAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAKkAjuT6kA8/h+C3aHYLC0iRFXdbFdZVyQhTi0x3W5T0kzbNzsNaFfbklj2HRRfEsR
+6Lyy2+1mPsjOOyTtWG3+E3y238vJ2X4L12kSJ702At5xuOSJqGEIS2+TS1mbfERUza91T6Dby62f
+j6dCcdlyw239eyLfxyedt9zZTaJ8GXFfcW227IuE9ExZYIc7Wi96SV/bpgG3NL26z6TBOOz4WD9f
+2J7xu1yYEmc2uKqSty3QykKkJiRzSkiYS86lta0kojMqpKlafMT5d5tcu+PW6xaOXF3m9RZiTs5c
+Xeb1FmAcuLvN6izAOXF3m9RZgHLi7zeoswDlxd5vUWYBy4u83qLMA5cXeb1FmAcuLvN6izAOXF3m
+9RZgHLi7zeoswDlxd5vUWYBy4u83qLMA5cXeb1FmAcuLvN6izAOXF3m9RZgHLi7zeoswDlxd5Gos
+wE8qNvI1EAkn2D6OJP8A0QDkTjZ9FEf1ATUvUAAAAAAAA+hgAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAP//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/bullet.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgADQAFAwERAAIRAQMRAf/EAFoAAQEAAAAAAAAAAAAAAAAA
+AAYHAQEAAAAAAAAAAAAAAAAAAAADEAACAgEEAwAAAAAAAAAAAAACAwEFEQASEwQhMQcRAAMBAQAA
+AAAAAAAAAAAAAAABERNh/9oADAMBAAIRAxEAPwC9r+m0J2T6+Edrm69kmoMpBe2XvJoCUTyZ2RKC
+zOM+vGmxcvKHqrBdoRD/2Q==
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Right_Line.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAQAARAwERAAIRAQMRAf/EAGQAAQEBAQEAAAAAAAAAAAAA
+AAAEAgEIAQEAAAAAAAAAAAAAAAAAAAAAEAACAQIDBAsAAAAAAAAAAAAAAQIDBBFxwSExc7NhsRIi
+MnKyEyMzNBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9UgT3UsK9mscO1Waz+Go9AKA
+AEt5+mw48uRVAqAATXf32XGfJqAUgAJ7qEpV7RpbIVW5Ze1UXWwKAAGKnjpeZ+mQGwAGZrvQ6How
+NAAOPes9AOgAAAD/2Q==
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Know_Your_Life.jpg
+
+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
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Left_Big_Line.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAdgARAwERAAIRAQMRAf/EAFwAAQEBAQEAAAAAAAAAAAAA
+AAADAgEIAQEAAAAAAAAAAAAAAAAAAAAAEAABAwQCAgMAAAAAAAAAAAAAAQIDM3OzBHKyMTKBkbER
+AQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APUWnRddlyuAuAAhp0XXZcrgLgAIadF12XK4
+C4ACGnRddlyuAuAAhqUXXZcrgLgAI6tJ1yTI4CwACWtSW5JkcBUABPXprzf3UCgACcPovN/dQKAA
+MRei8ndlA2AAzH6ryd2UDQADjfHyv6B0AATx9gAAAAAAAAAH/9k=
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Happenings.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEwDnAwERAAIRAQMRAf/EAI0AAQACAwEBAAAAAAAAAAAA
+AAADBQIEBgEIAQEBAQEBAAAAAAAAAAAAAAAAAgEDBBAAAQMCAgcGAwUJAAAAAAAAAwECBAAFEQYh
+URLSE5MUMUEiMjMHYdE0YpIjFTXwcYGRsXKCokMRAQEAAgEDAgYDAQAAAAAAAAABEQITIRIDMWFB
+UYGhsdFxkSJS/9oADAMBAAIRAxEAPwD6poK7Mc08DL10nR1RJESIc4VVMUR4xOc3FO/SlVpM7SJ2
+uJXIB9xGylySCFcIkmXeSDZdwieMj2osJ5neBrlVn4rU/pXbhx3Znp+3Pk9Pdbp7mZPWOeT1b+nB
+FNPaVQGRpY0d/DKUKq1EIjXKieHt7U0aajh2VyaspHuPlSPFlSpMkgBw2RzGaUJWPUMwqBAZjXNR
+XjeRcNpvZ30nh2reSJn59y0MEkhjkCSKcUQ0UoSskcaQ1HBYgnN214jVxRUTDDHHDBcM4tjkjXJ7
+m5PYyKvVFeSa6SOPHHHM8ziw1Y04uE1ik4jVI3womntTRpreDZnJqhfn+wvdCugbqn5Oa1zLmoEj
+Pc4gYqsUheJiisUWKoo9nFV/dW8V9Mdc4OSeuemG1B9xsoTesUU1WMgxUuBymEUTFi6UUwnPa1Cs
+RWqm0zFMay+HaNnklYu9yMqD4qHOaOQIASXiMAw37EovBAiNc3FXEf2In8acOxyR0ECaObFZJGwo
+2vVybBxvCRFY5WriwiNcmluhexU0pornZhUuU9Y0oFAoFAoFAoFAoFAoFAoFAoFAoFBX5ggGuNhu
+VvCrWmmRTxxOfijUcUbmNVyojlwxXToqtLiys2mZhzknKVzfFyYIZhNJlx7HTHqhHI7YhPjfhJse
+LxvRfFs6K6TyT/Xv+0dl6ezhc4ZPzRFy/crzepTJRYlhuMSWfjyjOMU6sc0jBEEwQG7I9LGaE+12
+16PH5dbtJP8AqOW+lxm/JLnqy3t+W5N9nOAI6Q7PbIIwoUjXYXMBnHLtjEjcXbKINuP9y1ni3ndi
+e9+xvrcZ/j8ry85DvV3mzb2d0UN3dMt8uDCVh5ETYtwyj2DvcETl4ySi44D8Ojtrnr5pJjrjr913
+x29fiuW5flFzNl+8vhRIArSK4MPFjIYnjmNA1jxqscCKuAnI7FE0YdvdHJO2zr1wrt6yuZZ7aXxL
+JGgKePxg2O82pzsJGzx7kTbC5F4OOw1POuGOpFrrz65z7y/0jiuPpW7mPIrpUSYsmWKDbkyx+TkO
+rCI0JBPQvFVFY1qBajNK7SLh3VOnmxffuy3bx/hoOjzMzZwvIblb4FzG+yQIsuOMsh0XFZRiqinQ
+G20mC8RmA9CYae+qzNdZi2danHdtc/J2+R7XcLHl8VuuMss0oiFULnIYyjC56qIPGexjy8NmDdtW
+pjqSuHl2m1zHXTWyYq/6keonLfu1zWdSPUTlv3aB1I9ROW/doHUj1E5b92gdSPUTlv3aB1I9ROW/
+doHUj1E5b92gdSPUTlv3aB1I9ROW/doHUj1E5b92gdSPUTlv3aB1I9ROW/doHUj1P5b/AJUHqHYv
+c/7j/lQZIRq9y/dX5UGWKfH+S0CgUCgUCgil/Sl9Pyr63p/5fCthWEr6X/l2s9X0/Mn7N+NIytis
+aUCgimfSH9P03et6flXz/Z1/CthVflr9OX6H1Hfpvodif7a6rf1+P1Tr6LWoUUCgUCgUCgUCgUCg
+UCgUCgUCgUCg/9k=
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Right_Big_Line.jpg
+
+/9j/4AAQSkZJRgABAgEASABIAAD/4QOZRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUA
+AAABAAAAYgEbAAUAAAABAAAAagEoAAMAAAABAAIAAAExAAIAAAAUAAAAcgEyAAIAAAAUAAAAhodp
+AAQAAAABAAAAnAAAAMgAAABIAAAAAQAAAEgAAAABQWRvYmUgUGhvdG9zaG9wIDcuMAAyMDA1OjEw
+OjE4IDE2OjI1OjAwAAAAAAOgAQADAAAAAf//AACgAgAEAAAAAQAAABGgAwAEAAAAAQAAADoAAAAA
+AAAABgEDAAMAAAABAAYAAAEaAAUAAAABAAABFgEbAAUAAAABAAABHgEoAAMAAAABAAIAAAIBAAQA
+AAABAAABJgICAAQAAAABAAACawAAAAAAAABIAAAAAQAAAEgAAAAB/9j/4AAQSkZJRgABAgEASABI
+AAD/7QAMQWRvYmVfQ00AAv/uAA5BZG9iZQBkgAAAAAH/2wCEAAwICAgJCAwJCQwRCwoLERUPDAwP
+FRgTExUTExgRDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwBDQsLDQ4NEA4OEBQO
+Dg4UFA4ODg4UEQwMDAwMEREMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEI
+ADoAEQMBIgACEQEDEQH/3QAEAAL/xAE/AAABBQEBAQEBAQAAAAAAAAADAAECBAUGBwgJCgsBAAEF
+AQEBAQEBAAAAAAAAAAEAAgMEBQYHCAkKCxAAAQQBAwIEAgUHBggFAwwzAQACEQMEIRIxBUFRYRMi
+cYEyBhSRobFCIyQVUsFiMzRygtFDByWSU/Dh8WNzNRaisoMmRJNUZEXCo3Q2F9JV4mXys4TD03Xj
+80YnlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3EQACAgECBAQDBAUGBwcG
+BTUBAAIRAyExEgRBUWFxIhMFMoGRFKGxQiPBUtHwMyRi4XKCkkNTFWNzNPElBhaisoMHJjXC0kST
+VKMXZEVVNnRl4vKzhMPTdePzRpSkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2JzdHV2d3h5ent8f/
+2gAMAwEAAhEDEQA/APVVFw1b5H+BUkx5b8f4FJS6SSSSn//Q9VTHkfH+CdMeR8f4JKXSTJJKf//R
+9VTHkJ03gkpdJJJJT//S9VTeCdN4JKXSSSSU/wD/2f/tCD5QaG90b3Nob3AgMy4wADhCSU0EJQAA
+AAAAEAAAAAAAAAAAAAAAAAAAAAA4QklNA+0AAAAAABAASAAAAAEAAQBIAAAAAQABOEJJTQQmAAAA
+AAAOAAAAAAAAAAAAAD+AAAA4QklNBA0AAAAAAAQAAAAeOEJJTQQZAAAAAAAEAAAAHjhCSU0D8wAA
+AAAACQAAAAAAAAAAAQA4QklNBAoAAAAAAAEAADhCSU0nEAAAAAAACgABAAAAAAAAAAE4QklNA/UA
+AAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEAoZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAA
+AAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAAAHAAAP////////////////////////////8D
+6AAAAAD/////////////////////////////A+gAAAAA/////////////////////////////wPo
+AAAAAP////////////////////////////8D6AAAOEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAA
+ADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA1EAAAAGAAAAAAAAAAAAAAA6AAAAEQAAAA4AUgBp
+AGcAaAB0AF8AQgBpAGcAXwBMAGkAbgBlAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA
+AAARAAAAOgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAbnVs
+bAAAAAIAAAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAA
+TGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAAOgAAAABSZ2h0bG9uZwAAABEAAAAGc2xpY2VzVmxM
+cwAAAAFPYmpjAAAAAQAAAAAABXNsaWNlAAAAEgAAAAdzbGljZUlEbG9uZwAAAAAAAAAHZ3JvdXBJ
+RGxvbmcAAAAAAAAABm9yaWdpbmVudW0AAAAMRVNsaWNlT3JpZ2luAAAADWF1dG9HZW5lcmF0ZWQA
+AAAAVHlwZWVudW0AAAAKRVNsaWNlVHlwZQAAAABJbWcgAAAABmJvdW5kc09iamMAAAABAAAAAAAA
+UmN0MQAAAAQAAAAAVG9wIGxvbmcAAAAAAAAAAExlZnRsb25nAAAAAAAAAABCdG9tbG9uZwAAADoA
+AAAAUmdodGxvbmcAAAARAAAAA3VybFRFWFQAAAABAAAAAAAAbnVsbFRFWFQAAAABAAAAAAAATXNn
+ZVRFWFQAAAABAAAAAAAGYWx0VGFnVEVYVAAAAAEAAAAAAA5jZWxsVGV4dElzSFRNTGJvb2wBAAAA
+CGNlbGxUZXh0VEVYVAAAAAEAAAAAAAlob3J6QWxpZ25lbnVtAAAAD0VTbGljZUhvcnpBbGlnbgAA
+AAdkZWZhdWx0AAAACXZlcnRBbGlnbmVudW0AAAAPRVNsaWNlVmVydEFsaWduAAAAB2RlZmF1bHQA
+AAALYmdDb2xvclR5cGVlbnVtAAAAEUVTbGljZUJHQ29sb3JUeXBlAAAAAE5vbmUAAAAJdG9wT3V0
+c2V0bG9uZwAAAAAAAAAKbGVmdE91dHNldGxvbmcAAAAAAAAADGJvdHRvbU91dHNldGxvbmcAAAAA
+AAAAC3JpZ2h0T3V0c2V0bG9uZwAAAAAAOEJJTQQRAAAAAAABAQA4QklNBBQAAAAAAAQAAAABOEJJ
+TQQMAAAAAAKHAAAAAQAAABEAAAA6AAAANAAAC8gAAAJrABgAAf/Y/+AAEEpGSUYAAQIBAEgASAAA
+/+0ADEFkb2JlX0NNAAL/7gAOQWRvYmUAZIAAAAAB/9sAhAAMCAgICQgMCQkMEQsKCxEVDwwMDxUY
+ExMVExMYEQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAQ0LCw0ODRAODhAUDg4O
+FBQODg4OFBEMDAwMDBERDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAA6
+ABEDASIAAhEBAxEB/90ABAAC/8QBPwAAAQUBAQEBAQEAAAAAAAAAAwABAgQFBgcICQoLAQABBQEB
+AQEBAQAAAAAAAAABAAIDBAUGBwgJCgsQAAEEAQMCBAIFBwYIBQMMMwEAAhEDBCESMQVBUWETInGB
+MgYUkaGxQiMkFVLBYjM0coLRQwclklPw4fFjczUWorKDJkSTVGRFwqN0NhfSVeJl8rOEw9N14/NG
+J5SkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2N0dXZ3eHl6e3x9fn9xEAAgIBAgQEAwQFBgcHBgU1
+AQACEQMhMRIEQVFhcSITBTKBkRShsUIjwVLR8DMkYuFygpJDUxVjczTxJQYWorKDByY1wtJEk1Sj
+F2RFVTZ0ZeLys4TD03Xj80aUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9ic3R1dnd4eXp7fH/9oA
+DAMBAAIRAxEAPwD1VRcNW+R/gVJMeW/H+BSUukkkkp//0PVUx5Hx/gnTHkfH+CSl0kySSn//0fVU
+x5CdN4JKXSSSSU//0vVU3gnTeCSl0kkklP8A/9kAOEJJTQQhAAAAAABVAAAAAQEAAAAPAEEAZABv
+AGIAZQAgAFAAaABvAHQAbwBzAGgAbwBwAAAAEwBBAGQAbwBiAGUAIABQAGgAbwB0AG8AcwBoAG8A
+cAAgADcALgAwAAAAAQA4QklNBAYAAAAAAAcABAAAAAEBAP/hEkhodHRwOi8vbnMuYWRvYmUuY29t
+L3hhcC8xLjAvADw/eHBhY2tldCBiZWdpbj0n77u/JyBpZD0nVzVNME1wQ2VoaUh6cmVTek5UY3pr
+YzlkJz8+Cjw/YWRvYmUteGFwLWZpbHRlcnMgZXNjPSJDUiI/Pgo8eDp4YXBtZXRhIHhtbG5zOng9
+J2Fkb2JlOm5zOm1ldGEvJyB4OnhhcHRrPSdYTVAgdG9vbGtpdCAyLjguMi0zMywgZnJhbWV3b3Jr
+IDEuNSc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1y
+ZGYtc3ludGF4LW5zIycgeG1sbnM6aVg9J2h0dHA6Ly9ucy5hZG9iZS5jb20vaVgvMS4wLyc+Cgog
+PHJkZjpEZXNjcmlwdGlvbiBhYm91dD0ndXVpZDo4Zjg3Y2Q4OC0zZmM1LTExZGEtYmNmMS1mMTQ4
+Yjk2ZmZiMjUnCiAgeG1sbnM6eGFwTU09J2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8n
+PgogIDx4YXBNTTpEb2N1bWVudElEPmFkb2JlOmRvY2lkOnBob3Rvc2hvcDo4Zjg3Y2Q4Ni0zZmM1
+LTExZGEtYmNmMS1mMTQ4Yjk2ZmZiMjU8L3hhcE1NOkRvY3VtZW50SUQ+CiA8L3JkZjpEZXNjcmlw
+dGlvbj4KCjwvcmRmOlJERj4KPC94OnhhcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSd3Jz8+/+4ADkFkb2JlAGQAAAAA
+Af/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAEHBwcNDA0YEBAYFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAOgARAwERAAIRAQMRAf/dAAQAA//EAaIAAAAHAQEB
+AQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAACAQMD
+AgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPBUtHhMxZi8CRygvElQzRTkqKy
+Y3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE1OT0ZXWFlaW1xdXl9WZ2hpam
+tsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZqbnJ2en5KjpKWmp6ipqqusra
+6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEyobHwFMHR4SNCFVJicvEzJDRD
+ghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp0+PzhJSktMTU5PRldYWVpbXF
+1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+DlJWWl5iZmpucnZ6fkqOkpa
+anqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4qskFWj9mr/wAKcVX4q//Q9U4qtf7Sf63/ABqcVXYq
+/wD/0fVOKrX+0nz/AIHFV2Kv/9L1Tiq1/tJ8/wCBxVdTFX//0/VOKtN1X5/wOKt4q//U9U4q49Ri
+rsVf/9X1Tirj1GKuxV//1vVOKuPUYq7FX//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/bigleftbottomcurve.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgATwAVAwERAAIRAQMRAf/EAGIAAQEBAQEAAAAAAAAAAAAA
+AAACAQMIAQEAAAAAAAAAAAAAAAAAAAAAEAADAAACBwkAAAAAAAAAAAAAAQIRsUFRcdFyAzMhMYHB
+QqITUyQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APVIEVzZTwWNUu9SsQHyX9Ve3eA5
+jbahPB12t6kgLmVKwSwQADnL/Ta1RGHi63AdAAET174JzoCwAELr3wznQFgAIXWrhnOgLAASupWx
+ZsCgAGep7F5gaAAaQAABpAAAP//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Spacer.gif
+
+R0lGODlhAQABAIAAAP///wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/bigrightbottomcurve.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgATwAVAwERAAIRAQMRAf/EAGQAAAMBAQAAAAAAAAAAAAAA
+AAACAwEIAQEAAAAAAAAAAAAAAAAAAAAAEAABAgMFBwUAAAAAAAAAAAAAAQIRgRNBwRKCwiExUWEy
+QoOxIgNDwxEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6mqOt+NyJJfRVAZr2uSLVjxA
+0AAV7V6m9abufIAxtp4+2EQGAAIRWh5MMqkALgAEoJT8n6AVAAJ/Xn1gUAAJ7aefWBQAASHszagH
+AAF7Z3gMAAZZO8DQADLJ3gf/2Q==
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/verisign_logo.gif
+
+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
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/Go.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgADgAXAwERAAIRAQMRAf/EAHMAAQEBAAAAAAAAAAAAAAAA
+AAQFAgEAAwEBAAAAAAAAAAAAAAAAAQIDBgQQAAEEAQIEBwEAAAAAAAAAAAERAgMEEhMFACEyFDFB
+UYEiFRYGEQAABQQCAQUAAAAAAAAAAAAAARECEiExQQPBEyJxkaGxMv/aAAwDAQACEQMRAD8Apb/S
+mv8A95uNGFBNa3WaCPLkMpLDmhfc8bHQ8m6GuPDC+hmdrTdtMiy7kFsbIDHA+hJJYbMJnHVhNcNZ
+Chzzc4xlpa5erl5+Su3deVLZW4Q9Vkr8ALqNtt3snRFtrMRaRQHMlAPTnxWZRlgJE1TIs773v77c
+OwXvvtZu1xRdXuTgi8upOOfTHobL8wJfYW2r3Gl5cjcdvejSyhpV20GuvZsYfg4mOAWfGQu+LdIt
+xKei8+AbWSqZy8eUx6gk5yUIkrwvADal3T9E2WeFn2GtG4QKNPJWljFDulEHV78UaTetCPxQTcbp
+1uP/2Q==
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.licindia.com/images/bg.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAFgABAwERAAIRAQMRAf/EAFIAAAMAAAAAAAAAAAAAAAAA
+AAADCAEBAAAAAAAAAAAAAAAAAAAAABAAAgIDAAAAAAAAAAAAAAAAAAKR0gMTUxEBAAAAAAAAAAAA
+AAAAAAAAAP/aAAwDAQACEQMRAD8AqXbk4vKWAYAAf//Z
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.licindia.com/images/style.css
+
+.searchbox {
+	BORDER-RIGHT: #3366cc 1px solid; BORDER-TOP: #3366cc 1px solid; =
+FONT-SIZE: 10px; BORDER-LEFT: #3366cc 1px solid; WIDTH: 105px; COLOR: =
+#555555; BORDER-BOTTOM: #3366cc 1px solid; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; HEIGHT: 15px
+}
+.text {
+	FONT-SIZE: 9px; LIST-STYLE-IMAGE: url(bullet.jpg); COLOR: #898989; =
+LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.text1 {
+	FONT-SIZE: 9px; LIST-STYLE-IMAGE: url(bullet.jpg); COLOR: #000000; =
+LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.newuser {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ff4e00; FONT-STYLE: =
+normal; FONT-FAMILY: "Times New Roman", Times, serif
+}
+.table_border {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; =
+FONT-SIZE: 10px; BORDER-LEFT: #cccccc 1px solid; COLOR: #333333; =
+BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; TEXT-DECORATION: none
+}
+.basetext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #7b7b7b; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtbox {
+	FONT-SIZE: 10px; COLOR: #003366; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #ebebeb
+}
+.content {
+	FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+.contentheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #555555; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif
+}
+.contentheader1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; FONT-STYLE: normal; =
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.text_background {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 10px; =
+BORDER-LEFT: medium none; COLOR: #000000; BORDER-BOTTOM: medium none; =
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 16px; =
+BACKGROUND-COLOR: #e6e6e6
+}
+.loginbox {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 10px; =
+BORDER-LEFT: medium none; WIDTH: 120px; COLOR: #000000; BORDER-BOTTOM: =
+medium none; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: =
+16px; BACKGROUND-COLOR: #e6e6e6
+}
+.top_page {
+	FLOAT: right; WIDTH: auto; HEIGHT: auto
+}
+.login_table {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; =
+BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.loginboxinside {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 10px; =
+MARGIN-BOTTOM: 2px; BORDER-LEFT: medium none; WIDTH: 80px; COLOR: =
+#000000; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; HEIGHT: 16px; BACKGROUND-COLOR: #e6e6e6
+}
+.contentheader2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #6676a8; FONT-STYLE: normal; =
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.HEADER {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #003366; FONT-STYLE: normal; =
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.contentprod {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #fe814b; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; LETTER-SPACING: -1px; =
+TEXT-DECORATION: none
+}
+.breadcrums {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #536393; FONT-STYLE: normal; =
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: =
+none
+}
+.breadcrums2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; FONT-STYLE: =
+normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.botlinks {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #7b7b7b; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.copyright {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #8b8b8b; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif
+}
+.txtbox2 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; =
+FONT-SIZE: 10px; BORDER-LEFT: #999999 1px solid; WIDTH: 150px; COLOR: =
+#000000; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; HEIGHT: 17px
+}
+.btnforms {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; =
+FONT-SIZE: 11px; BORDER-LEFT: medium none; WIDTH: 75px; COLOR: #ffffff; =
+BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, =
+sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #3e81d2
+}
+.Mcontent {
+	FONT-SIZE: 9px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, Helvetica, =
+sans-serif; TEXT-ALIGN: center
+}
+.plan_numbers {
+	FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.Agents_recruiter_txt {
+	FONT-SIZE: 10px; COLOR: #444444; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.Agents_recruiter_heading_txt {
+	FONT-SIZE: 10px; COLOR: #444444; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.Agents_recruiter_textbox {
+	BORDER-RIGHT: #7ab1e7 1px solid; BORDER-TOP: #7ab1e7 1px solid; =
+FONT-SIZE: 10px; BORDER-LEFT: #7ab1e7 1px solid; WIDTH: 190px; COLOR: =
+#366dbb; BORDER-BOTTOM: #7ab1e7 1px solid; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; HEIGHT: 16px; BACKGROUND-COLOR: #bcdefc
+}
+.Agents_recruiter_add_textbox {
+	BORDER-RIGHT: #7ab1e7 1px solid; BORDER-TOP: #7ab1e7 1px solid; =
+FONT-SIZE: 10px; BORDER-LEFT: #7ab1e7 1px solid; WIDTH: 190px; COLOR: =
+#366dbb; BORDER-BOTTOM: #7ab1e7 1px solid; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; SCROLLBAR-BASE-COLOR: #b4dcff; HEIGHT: 50px; =
+BACKGROUND-COLOR: #bcdefc
+}
+.grp_scheme_frm_hdng {
+	BORDER-RIGHT: #bebebe 1px solid; BORDER-TOP: #bebebe 1px solid; =
+FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #bebebe 1px solid; =
+COLOR: #444444; BORDER-BOTTOM: #bebebe 1px solid; FONT-FAMILY: Verdana, =
+Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e9e9e9; TEXT-ALIGN: =
+center
+}
+.grp_scheme_frm_fields {
+	BORDER-RIGHT: #bebebe 1px solid; BORDER-TOP: #bebebe 1px solid; =
+FONT-SIZE: 10px; BORDER-LEFT: #bebebe 1px solid; COLOR: #111111; =
+BORDER-BOTTOM: #bebebe 1px solid; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; BACKGROUND-COLOR: #f5f5f5
+}
+.grp_txt {
+	FONT-SIZE: 9px; LIST-STYLE-IMAGE: url(bullet.jpg); COLOR: #555555; =
+LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.Italic {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-STYLE: italic; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+Italic A:link {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-STYLE: italic; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+Italic A:visited {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-STYLE: italic; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+Italic A:active {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-STYLE: italic; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+Italic A:hover {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-STYLE: italic; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+LI A:link {
+	FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+LI A:visited {
+	FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+LI A:active {
+	FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+LI A:hover {
+	FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.licindia.com/js/CascadeMenu.js
+
+
+=20
+   function InitMenu()
+   {
+     var bar =3D menuBar.children    =20
+
+     for(var i=3D0;i < bar.length;i++)=20
+        {
+          var menu=3Deval(bar[i].menu)
+          menu.style.visibility =3D "hidden"
+          bar[i].onmouseover =3D new Function("ShowMenu("+bar[i].id+")")
+          var Items =3D menu.children
+          for(var j=3D0; j<Items.length; j++)
+            {
+              var menuItem =3D eval(Items[j].id)
+               =20
+                if(menuItem.menu !=3D null)
+                   {=20
+                    menuItem.innerHTML +=3D "<Span =
+Id=3D"+menuItem.id+"_Arrow class=3D'Arrow'>4</Span>"
+                    //var tmp =3D eval(menuItem.id+"_Arrow")
+                    //tmp.style.pixelLeft =3D =
+menu.getBoundingClientRect().Right - //tmp.offsetWidth - 15
+                    FindSubMenu(menuItem.menu)}
+              =20
+                 if(menuItem.cmd !=3D null)=20
+                   {
+                   menuItem.onclick =3D new =
+Function("Do("+menuItem.id+")") }=20
+                  =20
+              menuItem.onmouseover =3D new =
+Function("highlight("+Items[j].id+")")
+           =20
+            }   =20
+       =20
+        } =20
+   }
+   function FindSubMenu(subMenu)
+   {
+         var menu=3Deval(subMenu)
+         var Items =3D menu.children
+          for(var j=3D0; j<Items.length; j++)
+            {
+              menu.style.visibility =3D "hidden"
+              var menuItem =3D eval(Items[j].id)
+             =20
+             =20
+              if(menuItem.menu!=3D null)
+                 {
+                    menuItem.innerHTML +=3D "<Span =
+Id=3D"+menuItem.id+"_Arrow class=3D'Arrow'>4</Span>"
+                    // var tmp =3D eval(menuItem.id+"_Arrow")
+                    //tmp.style.pixelLeft =3D 35 =
+//menuItem.getBoundingClientRect().right - tmp.offsetWidth - 15
+                    FindSubMenu(menuItem.menu)
+                 }
+
+                 if(menuItem.cmd !=3D null)=20
+                   {
+                   menuItem.onclick =3D new =
+Function("Do("+menuItem.id+")") }=20
+                 =20
+              menuItem.onmouseover =3D new =
+Function("highlight("+Items[j].id+")")
+                =20
+            } =20
+   }=20
+   function ShowMenu(obj)
+   {
+     HideMenu(menuBar)
+     var menu =3D eval(obj.menu)
+     var bar =3D eval(obj.id)
+     bar.className=3D"barOver"
+     menu.style.visibility =3D "visible"
+     menu.style.pixelTop =3D  obj.getBoundingClientRect().top  + =
+Bdy.scrollTop
+     menu.style.pixelLeft =3D obj.getBoundingClientRect().left + =
+Bdy.scrollLeft + 148
+   }
+  =20
+   function highlight(obj)
+   {
+     var PElement =3D eval(obj.parentElement.id)
+     if(PElement.hasChildNodes() =3D=3D true)
+     {  var Elements =3D PElement.children
+       for(var i=3D0;i<Elements.length;i++)
+       {
+          TE =3D eval(Elements[i].id)
+          TE.className =3D "menuItem"
+       }
+      }=20
+     obj.className=3D"ItemMouseOver"
+     window.defaultStatus =3D obj.title
+     ShowSubMenu(obj)
+   }
+  =20
+   function Do(obj)
+   {
+    var cmd =3D eval(obj).cmd=09
+    window.navigate(cmd)
+    =20
+   }
+  =20
+   function HideMenu(obj)
+   {
+          if(obj.hasChildNodes()=3D=3Dtrue)
+              { =20
+                 var child =3D obj.children    =20
+                =20
+                 for(var j =3D0;j<child.length;j++)
+                  {
+                     if (child[j].className=3D=3D"barOver")
+                     {var bar =3D eval(child[j].id)
+                      bar.className=3D"Bar"}
+                     =20
+                     if(child[j].menu !=3D null)
+                       {
+                          var childMenu =3D eval(child[j].menu)
+                          if(childMenu.hasChildNodes()=3D=3Dtrue)=20
+                               HideMenu(childMenu)
+                         =20
+                           childMenu.style.visibility =3D "hidden"=20
+                         }
+                  }
+             =20
+              }
+   }
+  function ShowSubMenu(obj)
+  {
+     PMenu =3D eval(obj.parentElement.id)
+      HideMenu(PMenu)
+     if(obj.menu !=3D null)
+     {
+     var menu =3D eval(obj.menu)
+     menu.style.visibility =3D "visible"
+     menu.style.pixelTop =3D  obj.getBoundingClientRect().top + =
+Bdy.scrollTop
+     menu.style.pixelLeft =3D obj.getBoundingClientRect().right + =
+Bdy.scrollLeft - 20
+     if(menu.getBoundingClientRect().right > window.screen.availWidth )
+       menu.style.pixelLeft =3D obj.getBoundingClientRect().left - =
+menu.offsetWidth
+    }
+  }=20
+
+------=_NextPart_000_04EA_01C91595.711742B0
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.licindia.com/js/WindowNavigationWeb.js
+
+var windowOpenProps =3D "height=3D"+screen.availHeight+", =
+width=3D"+screen.availWidth+",left=3D0,top=3D0,resizable=3Dyes,outerWidth=
+=3D0,outerHeight=3D0,menubar=3Dyes,status=3Dyes,scrollbars=3Dyes,director=
+ies=3Dyes,location=3Dyes,toolbar=3Dyes";=0A=
+=0A=
+=0A=
+if(window.name=3D=3D"")=0A=
+{=0A=
+=0A=
+//    window.name =3D "WebWindow";=0A=
+    =0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+function openPortalItem(portalUrl)=0A=
+{=0A=
+    =0A=
+    =0A=
+     var w =3D window.open( =
+getSSLURL(portalUrl),"PortalWindow",windowOpenProps);=0A=
+     w.focus();=0A=
+=0A=
+}=0A=
+=0A=
+=0A=
+function submitForm(formName)=0A=
+{   =0A=
+    =0A=
+=0A=
+    if(formName =3D=3D 'chkLoginForm')=0A=
+    {=0A=
+        =0A=
+     =
+if(document.forms[formName].elements['portlet_5_6{actionForm.userName}'].=
+value=3D=3D"" || =
+document.forms[formName].elements['portlet_5_6{actionForm.password}'].val=
+ue=3D=3D"")=0A=
+         {=0A=
+             alert("UserName/Password fields cannot be left blank");=0A=
+         }=0A=
+       else=0A=
+         {  =0A=
+  =0A=
+              =0A=
+=0A=
+		//document.forms(formName).action =3D =
+'/LICEPS/appmanager/Visitor/VisitorHome?_nfpb=3Dtrue&portlet_5_6_actionOv=
+erride=3D/Login/chkLogin';=0A=
+=0A=
+		//document.forms(formName).action   =3D =
+getSSLURL('/LICEPS/appmanager/Visitor/VisitorHome?_nfpb=3Dtrue&portlet_5_=
+6_actionOverride=3D/Login/chkLogin');=0A=
+=0A=
+		document.forms[formName].action   =3D '/LICEPS/Login/webLogin.do';=0A=
+        =0A=
+	//	var w =3D window.open("","PortalWindow",windowOpenProps);=0A=
+	//	document.forms[formName].target =3D "PortalWindow";=0A=
+		//w.focus();=0A=
+		document.forms[formName].submit();=0A=
+        =0A=
+        }=0A=
+	}=0A=
+    if(formName =3D=3D 'chkMerchantLoginForm')=0A=
+    {=0A=
+        =0A=
+     =
+if(document.forms[formName].elements['vistorLoginPage{actionForm.userName=
+}'].value=3D=3D"" || =
+document.forms[formName].elements['vistorLoginPage{actionForm.password}']=
+.value=3D=3D"")=0A=
+         {=0A=
+             alert("UserName/Password fields cannot be left blank");=0A=
+         }=0A=
+       else=0A=
+         {  =0A=
+  =0A=
+              =0A=
+=0A=
+		=0A=
+		document.forms[formName].action   =3D =
+'/LICMerchant/Login/webLogin.do';        =0A=
+		//document.forms[formName].action   =3D '/LICEPS/Login/webLogin.do';   =
+     =0A=
+		document.forms[formName].submit();        =0A=
+        }=0A=
+=0A=
+       // document.forms[formName].reset();=0A=
+    }  =0A=
+}=0A=
+=0A=
+=0A=
+function validateSearchInput()=0A=
+        {=0A=
+            var empty =3D isEmptyCheck();=0A=
+            if(empty =3D=3D false)=0A=
+            { =0A=
+                var searchString  =3D searchBox.value;=0A=
+                //var searchWindow =3D =
+window.open('/LICEPS/appmanager/Generic/PortalSearchHome?searchingString=3D=
+'+searchString,"Portal_Search","toolbar=3Dyes,scrollbars=3Dyes,resizable=3D=
+yes,height=3D500,left=3D0,top=3D0");=0A=
+=0A=
+		//var searchWindow =3D =
+window.open(getSSLURL('/LICEPS/appmanager/Generic/PortalSearchHome?search=
+ingString=3D'+searchString,"Portal_Search","toolbar=3Dyes,scrollbars=3Dye=
+s,resizable=3Dyes,height=3D500,left=3D0,top=3D0"));=0A=
+                //searchWindow.focus();=0A=
+		document.forms['portalSearch'].action =3D =
+document.forms['portalSearch'].action + searchString;=0A=
+		document.forms['portalSearch'].submit();=0A=
+            }=0A=
+        }=0A=
+        =0A=
+        function isEmptyCheck()=0A=
+        {=0A=
+            var sString =3D =
+ltrim(rtrim(document.portalSearch.searchString.value));=0A=
+            if(sString =3D=3D '')=0A=
+            {=0A=
+                alert("Search field is empty, please enter your search =
+String Crieteria");=0A=
+                return true;=0A=
+            }=0A=
+            else=0A=
+            {=0A=
+                return false;=0A=
+            }=0A=
+        }=0A=
+        =0A=
+        function ltrim(s)=0A=
+        {=0A=
+            temp=3D""=0A=
+            for (i=3D0;i<s.length;i++)=0A=
+            {=0A=
+                if (s.charAt(i)!=3D" " )=0A=
+                {=0A=
+                    temp+=3Ds.substring(i)=0A=
+                    break=0A=
+                }=0A=
+            } =0A=
+            return temp=0A=
+        }=0A=
+  =0A=
+=0A=
+        function rtrim(s)=0A=
+        {=0A=
+            temp=3D""=0A=
+            for(i=3Ds.length;i>=3D0;--i)=0A=
+            { =0A=
+                if (s.charAt(i-1)!=3D" ")=0A=
+                { =0A=
+                    temp+=3Ds.substring(0,i)=0A=
+                    break=0A=
+                }=0A=
+            }=0A=
+            return temp=0A=
+        }=0A=
+=0A=
+function getServerName(url)=0A=
+{=0A=
+    var dblSlash   =3D url.indexOf('//')+2;=0A=
+    var slash      =3D url.indexOf('/',dblSlash);=0A=
+=0A=
+    var serverName =3D url.substring(dblSlash,slash);=0A=
+    return serverName;=0A=
+}=0A=
+=0A=
+function getSSLURL(url)=0A=
+{=0A=
+    return 'http://'+getServerName(window.location.href)+url;=0A=
+}=0A=
+=0A=
+function popUp(url) =0A=
+{=0A=
+	=
+sealWin=3Dwindow.open(url,"win",'toolbar=3D0,location=3D0,directories=3D0=
+,status=3D1,menubar=3D1,scrollbars=3D1,resizable=3D1,width=3D500,height=3D=
+450');=0A=
+	self.name =3D "mainWin"; =0A=
+}=0A=
+
+------=_NextPart_000_04EA_01C91595.711742B0--

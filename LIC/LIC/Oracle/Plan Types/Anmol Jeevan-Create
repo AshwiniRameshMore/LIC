@@ -1,0 +1,1 @@
+create table anmol_jeevan(pol_id number(10),client_age number(10),pol_duration number(15),tenlac_yr number(10),tenlac_hr number(10));

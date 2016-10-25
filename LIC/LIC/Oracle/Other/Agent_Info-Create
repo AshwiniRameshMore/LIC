@@ -1,0 +1,1 @@
+create table agent_info(agent_id number(10) primary key,agent_fname varchar2(20) not null,agent_mname varchar2(20) not null,agent_lname varchar2(20) not null,res_address varchar2(100) not null,tel_mob number(10),tel_off number(15),email varchar2(50),pincode number(10) not null,age number(3) not null,work_area varchar2(20) not null)

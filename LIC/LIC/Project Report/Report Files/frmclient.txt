@@ -1,0 +1,217 @@
+Private Sub cmbsex_Click()
+    txtffn.SetFocus
+End Sub
+
+Private Sub cmdhome_Click()
+    Unload Me
+    frmhome.Show
+End Sub
+
+Private Sub cmdproceed_Click()
+    If (txtfn.Text = "" Or txtmn.Text = "" Or txtsn.Text = "" Or cmbsex.Text = "" Or txtffn.Text = "" Or txtfmn.Text = "" Or txtfsn.Text = "" Or txtra.Text = "" Or txtpin.Text = "" Or txtnation.Text = "") Then
+        MsgBox "All * Marked Fields Are Compulsory!!!!!", vbExclamation
+    Else
+        Call max
+        con.Execute ("insert into client_info values(" + txtcid.Text + ",'" + txtfn.Text + "','" + txtmn.Text + "','" + txtsn.Text + "','" + cmbsex.Text + "','" + txtffn.Text + "','" + txtfmn.Text + "','" + txtfsn.Text + "','" + txtra.Text + "'," + txtmob.Text + "," + txtoff.Text + ",'" + txtemail.Text + "'," + txtpin.Text + ",'" + txtnation.Text + "'," + txtaid.Text + "," + txtpno.Text + ")")
+        Unload Me
+        frmpolicy.Show
+    End If
+End Sub
+
+Private Sub Form_Load()
+    Call conn
+    txtcid.Visible = False
+    txtaid.Visible = False
+    txtpno.Visible = False
+End Sub
+
+Public Function max()
+    Dim clientid As Integer
+    Dim rst As ADODB.Recordset
+    Set rst = New ADODB.Recordset
+    rst.Open "select max(client_id) from client_info", con, adOpenStatic, adLockOptimistic
+    If IsNull(rst.Fields(0)) Then
+        clientid = 1
+        txtcid.Text = clientid
+    Else
+        clientid = rst.Fields(0) + 1
+        txtcid.Text = clientid
+    End If
+    txtpno.Text = txtcid + 1000
+    txtaid.Text = txtcid + 3000
+    rst.Close
+End Function
+
+Private Sub txtemail_KeyPress(KeyAscii As Integer)
+    If (KeyAscii = 13) Then
+        txtpin.SetFocus
+    End If
+End Sub
+
+Private Sub txtffn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;',./~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtfmn.SetFocus
+    End If
+End Sub
+
+Private Sub txtfmn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;',./~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtfsn.SetFocus
+    End If
+End Sub
+
+Private Sub txtfn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;',./~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtmn.SetFocus
+    End If
+End Sub
+
+Private Sub txtfsn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;',./~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtra.SetFocus
+    End If
+End Sub
+
+Private Sub txtmn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;',./~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        txtsn.SetFocus
+    End If
+End Sub
+
+Private Sub txtmob_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtoff.SetFocus
+    End If
+End Sub
+
+Private Sub txtnation_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;',./~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        cmdproceed.SetFocus
+    End If
+End Sub
+
+Private Sub txtoff_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtemail.SetFocus
+    End If
+End Sub
+
+Private Sub txtpin_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i = 0 And KeyAscii <> 8 And KeyAscii <> 13) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Integer Only!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtnation.SetFocus
+    End If
+End Sub
+
+Private Sub txtra_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "`=[]\;~!@#$%^*+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Special Characters Are Not Allowed!!!!!", vbExclamation
+    End If
+    If (KeyAscii = 13) Then
+        txtmob.SetFocus
+    End If
+End Sub
+
+Private Sub txtsn_KeyPress(KeyAscii As Integer)
+    Dim nstr As String
+    Dim i As Integer
+    nstr = "0123456789`-=[]\;',./~!@#$%^&*()_+{}|:<>?"
+    i = InStr(nstr, Chr(KeyAscii))
+    If (i > 0) Then
+        KeyAscii = 0
+        MsgBox "Please Enter Character Only!!!!!", vbExclamation
+    Else
+        KeyAscii = Asc(UCase(Chr(KeyAscii)))
+    End If
+    If (KeyAscii = 13) Then
+        cmbsex.SetFocus
+    End If
+End Sub

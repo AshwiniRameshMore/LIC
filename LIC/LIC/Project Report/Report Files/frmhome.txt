@@ -1,0 +1,42 @@
+Dim flag As Boolean
+Dim flag1 As Boolean
+Private Sub Form_Load()
+    flag = True
+    flag1 = True
+    lblwelcome.Left = 19200
+    lblpb.Left = 19200
+    lblbt.Left = 19200
+    lbldy.Left = 19200
+    lblgn.Left = 19200
+End Sub
+
+Private Sub timer_Timer()
+    If (flag1 = False) Then
+        If (lblwelcome.Left = -10800) Then
+            lblwelcome.Left = 19080
+        Else
+            If (flag = True) Then
+                lblwelcome.ForeColor = &HFF&
+                flag = False
+            Else
+                lblwelcome.ForeColor = &HFF0000
+                flag = True
+            End If
+            lblwelcome.Left = lblwelcome.Left - 120
+        End If
+    End If
+End Sub
+
+Private Sub Timer1_Timer()
+    If (lblpb.Left = 12360) Then
+        If (lblbt.Left = 14520) Then
+            flag1 = False
+        Else
+            lblbt.Left = lblbt.Left - 120
+            lbldy.Left = lbldy.Left - 120
+            lblgn.Left = lblgn.Left - 120
+        End If
+    Else
+        lblpb.Left = lblpb.Left - 120
+    End If
+End Sub

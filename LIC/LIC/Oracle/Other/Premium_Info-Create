@@ -1,0 +1,1 @@
+create table premium_info(client_id number(10) primary key,agent_id number(10) not null,pol_id number(10) not null,total number(10) not null,paid number(10) not null,premium_amt number(15),premium_date date not null,due_date date not null,due_amt number(15) not null,status varchar(10) not null)
